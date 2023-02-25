@@ -4,4 +4,17 @@
         max-width: 1396px;
     }
 
+    .restaurant-details-texts-wrap {
+        display: flex;
+        gap: 356px;
+    }
+
+    .restaurant-details-btns-upper {
+        display: flex;
+        gap: 14px;
+    }
+
+    .restaurant-details-btns {
+        display: none;
+    }
 }

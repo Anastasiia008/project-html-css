@@ -1,5 +1,6 @@
 $('.restaurant-details-slick').slick({
     dots: false,
+    arrows: false,
     infinite: false,
     speed: 300,
     slidesToShow: 4,
@@ -11,7 +12,8 @@ $('.restaurant-details-slick').slick({
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: false,
-        dots: false
+        dots: false,
+        arrows: false
         }
     },
     {
@@ -20,7 +22,8 @@ $('.restaurant-details-slick').slick({
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: false,
-        dots: false
+        dots: false,
+        arrows: false
         }
     },
     {
@@ -30,6 +33,7 @@ $('.restaurant-details-slick').slick({
         slidesToScroll: 2,
         infinite: false,
         dots: false,
+        arrows: false
         }
     }
     ]

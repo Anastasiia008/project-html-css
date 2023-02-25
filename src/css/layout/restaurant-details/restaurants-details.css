@@ -1,26 +1,17 @@
 
 /*--------------- General styles ---------------*/
 
-.restaurant-details-picture > img {
+/* .restaurant-details-picture > img {
     display: block;
     max-width: 100%;
     height: auto;
     width: 100%;
-}
+} */
 
 .restaurant-details-view-btn > a {
     list-style: none;
     text-decoration: none;
     font-style: normal;
-}
-
-.restaurant-details-texts > h2, p {
-    margin: 0;
-}
-
-.restaurant-details-btns > button {
-    display: block;
-    cursor: pointer;
 }
 
 .restaurant-details-container {
@@ -29,17 +20,32 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #121212;
 }
 
 /*--------------- Section styles ---------------*/
 
+.restaurant-details-texts {
+    margin-bottom: 32px;
+}
+
 .restaurant-details-title {
+    margin-bottom: 24px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 1.0;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.restaurant-details-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #121212;
@@ -51,6 +57,7 @@
 
 .restaurant-details-slick-item {
     max-width: 157px;
+    margin-bottom: 40px;
 }
 
 .restaurant-details-slick-item {
@@ -63,4 +70,32 @@
 
 .restaurant-details-picture-plus {
     display: none;
+}
+
+.restaurant-details-btns {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.restaurant-details-book-btn, .restaurant-details-view-btn {
+    width: 128px;
+    height: 34px;
+    padding: 8px;
+    background-color: transparent;
+    border: 0.8px solid #121212;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.restaurant-details-btn-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
 }

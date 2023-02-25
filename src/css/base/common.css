@@ -1,3 +1,6 @@
-/* body {
-базові стилі
-} */
+body {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-size: 14px;
+    font-family: var(--font-family);
+}

@@ -17,4 +17,12 @@
     .restaurant-details-btns {
         display: none;
     }
+
+    .restaurant-details-slick-item-plus {
+        display: block;
+    }
+    
+    .restaurant-details-picture-plus {
+        display: block;
+    }
 }

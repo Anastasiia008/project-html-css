@@ -10,7 +10,7 @@ $('.restaurant-details-slick').slick({
         settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        infinite: true,
+        infinite: false,
         dots: false
         }
     },
@@ -19,6 +19,7 @@ $('.restaurant-details-slick').slick({
         settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
+        infinite: false,
         dots: false
         }
     },
@@ -27,6 +28,7 @@ $('.restaurant-details-slick').slick({
         settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
+        infinite: false,
         dots: false,
         }
     }

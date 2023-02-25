@@ -52,6 +52,14 @@
     max-width: 157px;
 }
 
-.restaurant-details-slick-item:not(:last-child) {
+.restaurant-details-slick-item {
     margin-right: 20px;
+}
+
+.restaurant-details-slick-item-plus {
+    display: none;
+}
+
+.restaurant-details-picture-plus {
+    display: none;
 }

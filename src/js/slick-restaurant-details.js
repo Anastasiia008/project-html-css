@@ -1,5 +1,5 @@
 $('.restaurant-details-slick').slick({
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 300,
     slidesToShow: 4,
@@ -11,21 +11,23 @@ $('.restaurant-details-slick').slick({
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
-        dots: true
+        dots: false
         }
     },
     {
         breakpoint: 768,
         settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        dots: false
         }
     },
     {
         breakpoint: 348,
         settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        dots: false,
         }
     }
     ]

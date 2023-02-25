@@ -1,18 +1,20 @@
 <section class="restaurant-details">
-    <h2 class="restaurant-details-title">
-        Restaurant
-    </h2>
-    <p class="restaurant-details-text">
-        Relax and unwind with our delicious offerings, available any time of day.
-    </p>
-    <button type="button" class="restaurant-details-book-btn">
-        Book a table
-    </button>
-    <button type="button" class="restaurant-details-view-btn">
-        View the menu
-    </button>
+    <div class="restaurant-details-wrap">
+        <h2 class="restaurant-details-title">
+            Restaurant
+        </h2>
+        <p class="restaurant-details-text">
+            Relax and unwind with our delicious offerings, available any time of day.
+        </p>
+        <button type="button" class="restaurant-details-book-btn">
+            Book a table
+        </button>
+        <button type="button" class="restaurant-details-view-btn">
+            <a class="restaurant-details-view-link link" href="..//restaurant.html">View the menu</a>
+        </button>
+    </div>
     <div class="restaurant-details-slick">
-        <div>
+        <div class="restaurant-details-slick-item">
             <picture>
                 <source
                     srcset="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-1.jpg 1x,
@@ -32,7 +34,7 @@
                 <img src="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-1.jpg" alt="A glass of coctail" width="366">
             </picture>
         </div>
-        <div>
+        <div class="restaurant-details-slick-item">
             <picture>
                 <source
                     srcset="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-2.jpg 1x,
@@ -52,7 +54,7 @@
                 <img src="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-2.jpg" alt="Two croissants on plate" width="366">
             </picture>
         </div>
-        <div>
+        <div class="restaurant-details-slick-item">
             <picture>
                 <source
                     srcset="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-3.jpg 1x,
@@ -72,8 +74,115 @@
                 <img src="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-3.jpg" alt="Bottle of wine and glass" width="366">
             </picture>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="restaurant-details-slick-item">
+            <picture>
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-4.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-4-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                />
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/tablet/restaurant-details-tab-4.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/tablet/restaurant-details-tab-4-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                />
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/mobile/restaurant-details-mob-4.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/mobile/restaurant-details-mob-4-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                />
+                <img src="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-4.jpg" alt="The chef is cooking" width="366">
+            </picture>
+        </div>
+        <div class="restaurant-details-slick-item">
+            <picture>
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-5.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-5-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                />
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/tablet/restaurant-details-tab-5.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/tablet/restaurant-details-tab-5-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                />
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/mobile/restaurant-details-mob-5.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/mobile/restaurant-details-mob-5-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                />
+                <img src="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-5.jpg" alt="Cooked fish" width="366">
+            </picture>
+        </div>
+        <div class="restaurant-details-slick-item">
+            <picture>
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-6.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-6-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                />
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/tablet/restaurant-details-tab-6.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/tablet/restaurant-details-tab-6-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                />
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/mobile/restaurant-details-mob-6.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/mobile/restaurant-details-mob-6-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                />
+                <img src="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-6.jpg" alt="Dishes and drinks on table" width="366">
+            </picture>
+        </div>
+        <div class="restaurant-details-slick-item">
+            <picture>
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-7.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-7-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                />
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/tablet/restaurant-details-tab-7.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/tablet/restaurant-details-tab-7-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                />
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/mobile/restaurant-details-mob-7.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/mobile/restaurant-details-mob-7-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                />
+                <img src="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-7.jpg" alt="Girl's enjoying the meal" width="366">
+            </picture>
+        </div>
+        <div class="restaurant-details-slick-item-plus">
+            <picture>
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-8.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-8-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                />
+                <img src="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-8.jpg" alt="Cooked meal" width="366">
+            </picture>
+        </div>
+        <div class="restaurant-details-slick-item-plus">
+            <picture>
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-9.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-9-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                />
+                <img src="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-9.jpg" alt="Glass of tea on table" width="366">
+            </picture>
+        </div>
+        <div class="restaurant-details-slick-item-plus">
+            <picture>
+                <source
+                    srcset="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-10.jpg 1x,
+                    ../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-10-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                />
+                <img src="../img/restaurant-details-img/restaurants-details/desktop/restaurant-details-10.jpg" alt="Cooked asparagus with the egg on top" width="366">
+            </picture>
+        </div>
     </div>
 </section>

@@ -6,9 +6,7 @@
   background-color: var(--color-dark);
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
-.header-nav {
-  display: none;
-}
+
 .header-link {
   font-size: 14px;
   line-height: 1.29;
@@ -16,6 +14,19 @@
 
   color: var(--color-dark);
 }
+
+@media screen and (max-width: 1439px) {
+}
+.header-nav {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header-list-soc {
+    display: none;
+  }
+}
+
 .header-mobile {
   display: flex;
   gap: 83px;
@@ -123,21 +134,3 @@
   display: flex;
   gap: 14px;
 }
-
-/* Настьон, ЦЕ Твоє? до поч роботи було, вирішила закоментити і все. Дякую, в мене ін класи) */
-/* .nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
-}
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
-} */

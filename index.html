@@ -5,23 +5,168 @@
     <link rel="icon" type="image/svg+xml" href="/project-html-css/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mimimo</title>
-<!-- fonts -->
-<link href="https://fonts.googleapis.com" rel="preconnect" />
-<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-  rel="stylesheet"
-/>
-<!-- normalize -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-<!-- main styles -->    
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <!-- main styles -->
     
     <script type="module" crossorigin src="/project-html-css/assets/index-9040814b.js"></script>
-    <link rel="stylesheet" href="/project-html-css/assets/styles-ce9c47b9.css">
+    <link rel="stylesheet" href="/project-html-css/assets/styles-385a7fca.css">
   </head>
   <body>
     <header class="header">
+  <div class="header-container container">
+    <nav class="header-nav">
+      <ul class="header-list list">
+        <li class="header-item">
+          <a class="header-link link" href="./index.html">HOME</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link link" href="./hotel.html">HOTEL</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link link" href="./restaurant.html">RESTAURANT</a>
+        </li>
+      </ul>
 
+      <a class="header-logo" href="./index.html"
+        >MIMINO <span class="header-logo-desc">RESTAURANT-HOTEL COMPLEX</span>
+      </a>
+    </nav>
+
+    <div class="header-mobile">
+      <button type="button" class="mobile-menu-open js-open-menu">
+        <svg class="mobile-menu-open-icon" width="21" height="14">
+          <use href="/project-html-css/assets/header-icons-0c3501e5.svg#icon-menu-open"></use>
+        </svg>
+      </button>
+      <a class="header-logo-mob" href="./index.html"
+        >MIMINO
+        <span class="header-logo-desc-mob">RESTAURANT-HOTEL COMPLEX</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu js-menu-container">
+    <div class="container mobile-menu-container">
+      <div class="header-mobile-menu">
+        <button type="submit" class="mobile-menu-close-btn js-close-menu">
+          <svg class="mobile-menu-close-icon" width="14" height="14">
+            <use href="/project-html-css/assets/header-icons-0c3501e5.svg#icon-menu-close"></use>
+          </svg>
+        </button>
+
+        <a class="header-logo-mob" href="./index.html"
+          >MIMINO
+          <span class="header-logo-desc-mob">RESTAURANT-HOTEL COMPLEX</span>
+        </a>
+      </div>
+
+      <ul class="mobile-menu-list list">
+        <li class="mobile-menu-item">
+          <a href="./index.html" class="mobile-menu-link link">HOME</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="./hotel.html" class="mobile-menu-link link">HOTEL</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="./restaurant.html" class="mobile-menu-link link"
+            >RESTAURANT</a
+          >
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-soc list">
+        <li class="mobile-menu-soc-item">
+          <a
+            class="mobile-menu-soc-link link"
+            href="https://www.instagram.com/"
+            aria-label="instagram"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+            ><svg class="mobile-menu-soc-icon" width="20" height="20">
+              <use href="/project-html-css/assets/header-icons-0c3501e5.svg#icon-max-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-menu-soc-item">
+          <a
+            class="mobile-menu-soc-link link"
+            href="https://www.facebook.com/"
+            aria-label="facebook"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+            ><svg class="mobile-menu-soc-icon" width="20" height="20">
+              <use href="/project-html-css/assets/header-icons-0c3501e5.svg#icon-max-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-menu-soc-item">
+          <a
+            class="mobile-menu-soc-link link"
+            href="https://www.twitter.com/"
+            aria-label="twitter"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+            ><svg class="mobile-menu-soc-icon" width="20" height="20">
+              <use href="/project-html-css/assets/header-icons-0c3501e5.svg#icon-max-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- <ul class="header-list-soc list">
+      <li class="header-item-soc">
+        <a
+          class="header-link-soc link"
+          href="https://www.instagram.com/"
+          aria-label="instagram"
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+        >
+          <svg class="header-icons" width="24" height="24">
+            <use href="./img/header-icons.svg#icon-max-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-item-soc">
+        <a
+          class="header-link-soc link"
+          href="https://www.facebook.com/"
+          aria-label="facebook"
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+        >
+          <svg class="header-icons" width="24" height="24">
+            <use href="./img/header-icons.svg#icon-max-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-item-soc">
+        <a
+          class="header-link-soc link"
+          href="https://www.twitter.com/"
+          aria-label="twitter"
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+        >
+          <svg class="header-icons" width="24" height="24">
+            <use href="./img/header-icons.svg#icon-max-twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>  -->
 </header>
 
     

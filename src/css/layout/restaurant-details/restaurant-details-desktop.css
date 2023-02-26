@@ -2,11 +2,19 @@
 
     .restaurant-details-container {
         max-width: 1396px;
+        max-height: 659px;
+        padding-top: 44px;
+        padding-bottom: 24px;
     }
 
     .restaurant-details-texts-wrap {
         display: flex;
-        gap: 356px;
+        margin-bottom: 125px;
+    }
+
+    .restaurant-details-texts {
+        margin-right: auto;
+        margin-bottom: 0;
     }
 
     .restaurant-details-btns-upper {

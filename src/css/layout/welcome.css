@@ -1,10 +1,7 @@
 .welcome-section {
   padding: 64px 0 64px;
 }
-.container {
-  max-width: 375px;
-  padding: 0 20px;
-}
+
 .welcome__content_wrap {
   display: flex;
   flex-direction: column;

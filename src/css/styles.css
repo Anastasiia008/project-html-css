@@ -41,7 +41,9 @@
 /* rest ` */
 @import url('./pages/rest/hero-rest.css');
 @import url('./pages/rest/about-kitchen.css');
-@import url('./pages/rest/menu.css');
+@import url('./pages/rest/menu/menu.css');
+@import url('./pages/rest/menu/menu-tab.css');
+@import url('./pages/rest/menu/menu-desktop.css');
 
 /* room ` */
 @import url('./pages/room/hero-room.css');

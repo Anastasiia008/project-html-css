@@ -1,77 +1,12 @@
-<<<<<<< Updated upstream
 .section-triple{
 margin-left: auto;
 margin-right: auto;
 padding-top: 64px;
 padding-bottom: 64px;
-=======
-@media screen and (max-width: 767px) {
-    .container {
-      max-width: 375px;
-    }
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-      margin: 0;
-  }
-  
-  p:last-child {
-      margin-bottom: 0;
-  }
-  
-  ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-  }
-  
-  a {
-      color: currentColor;
-      text-decoration: none;
-  }
-  
-  button {
-      cursor: pointer;
-  }
-  
-  img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin: 0 auto;
-  }
-  
-  textarea {
-      resize: none;
-  }
-  
-  label {
-      display: block;
-  }
-  
-  .list {
-      list-style: none;
-  }
-  
-  .link {
-      text-decoration: none;
-  }
-  /* --------------------------------------------------------my style--------------------------------- */
-.section-triple{
-  /* padding-left: 20px;
-  padding-right: 20px; */
-   
->>>>>>> Stashed changes
 }
 .triple-list {
     display: flex;
     flex-wrap: wrap;
-<<<<<<< Updated upstream
     gap: 20px;
 }
 
@@ -109,56 +44,12 @@ color: var(--black);
 }
 .link-btn{
 font-family: var(--font-family);
-=======
-gap: 10px;
-justify-content: center;
-align-items: center;
-}
-
-.triple-title{
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 1.1px;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #121212;
-margin-top: 32px;
-margin-bottom: 32px;
-}
-.triple-content{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
-.triple-text{
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #121212;
-max-width: 335px;
-}
-.triple-btn{
-    margin-top: 28px;
-    display: flex;
-    gap:12px;
-}
-.triple-link{
-text-decoration: none;
-font-family: 'DM Sans';
->>>>>>> Stashed changes
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.29;
 letter-spacing: -0.02em;
 text-transform: uppercase;
-<<<<<<< Updated upstream
 color: var(--black);
 border: 0.8px solid #121212;
 border-radius: 32px;
@@ -256,26 +147,3 @@ margin-top:40px ;
 justify-content: baseline;
     }
   }
-=======
-color: #121212;
-max-width: 128px;
-border: 0.8px solid #121212;
-border-radius: 32px;
-padding: 8px 18px;
-}
-.prices-btn{
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #121212;
-max-width: 117px;
-border: 0.8px solid #121212;
-border-radius: 32px;
-padding: 8px 18px;
-background-color: transparent;
-}  */
->>>>>>> Stashed changes

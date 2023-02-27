@@ -21,7 +21,6 @@ top: 389px;
 left: 46px;
 position: absolute; 
 }
-
 .hero-text{
 font-family: 'DM Sans';
 font-style: normal;
@@ -32,7 +31,6 @@ letter-spacing: 0.05em;
 text-transform: uppercase;
 color: #F7F7F7;
 max-width: 339px;
-
 }
 .text-list{
     display: flex;
@@ -41,7 +39,6 @@ max-width: 339px;
     justify-content: center;
     align-items: start;
 }
-
 .word{
     font-family: 'DM Sans';
     font-style: italic;

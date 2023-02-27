@@ -16,7 +16,7 @@
 @import url('./components/container.css');
 
 /* LAYOUT ` */
-@import url('./layout/header.css');
+@import url('./layout/header-home.css');
 @import url('./layout/hero.css');
 @import url('./layout/about-complex.css');
 @import url('./layout/restourants-details.css');
@@ -24,7 +24,6 @@
 @import url('./layout/hotel-details.css');
 @import url('./layout/location.css');
 @import url('./layout/footer.css');
-
 
 @import url('./layout/modal-room.css');
 @import url('./layout/modal-table.css');

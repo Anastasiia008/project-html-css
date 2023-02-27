@@ -131,6 +131,16 @@
     display: none;
 }
 
+.restaurant-menu-icons {
+    width: 68px;
+    height: 24px;
+    background-color: #FFFFFF;
+}
+
+.restaurant-menu-icons-list {
+    display: flex;
+}
+
 .restaurant-menu-btn {
     width: 140px;
     height: 40px;
@@ -166,4 +176,3 @@
 .restaurant-menu-btn:is(:hover, :focus) .restaurant-menu-btn-text {
     color: var(--color-dark);
 }
-

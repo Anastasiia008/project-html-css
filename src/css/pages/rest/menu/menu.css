@@ -21,9 +21,6 @@
     color: var(--color-menu-light);
 }
 
-/* .restaurant-menu-list-wrap-desk {
-} */
-
 .restaurant-menu-list-wrap {
     display: none;
 }
@@ -52,14 +49,15 @@
     position: relative;
 }
 
-/* .restaurant-menu-item::after {
+.restaurant-menu-item::after {
     content: '';
     display: inline-block;
     width: 100%;
     height: 1px;
-    color: #FFFFFF;
+    background-color: rgba(121, 120, 120, 0.5);
     position: absolute;
-} */
+    bottom: -15px;
+}
 
 .restaurant-menu-item:not(:last-child) {
     margin-bottom: 29px;
@@ -76,6 +74,7 @@
 
 .restaurant-menu-dish-name {
     margin-right: auto;
+    margin-left: 22px;
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 500;
@@ -83,17 +82,20 @@
     line-height: 1.29;
     letter-spacing: 0.06em;
     color: var(--color-menu-light);
+    position: relative;
 }
 
-/* .restaurant-menu-dish-name::before {
+.restaurant-menu-dish-name::before {
     content: '';
     display: inline-block;
-    width: 6px;
-    height: 6px;
+    width: 3px;
+    height: 3px;
     border-radius: 50%;
-    color: aliceblue;
-    margin-right: 5px;
-} */
+    background-color: var(--color-menu-light);
+    position: absolute;
+    top: 8px;
+    left: -14px;
+}
 
 .restaurant-menu-dish-weight {
     font-family: var(--font-family);
@@ -129,12 +131,6 @@
 
 .restaurant-menu-list-wrap {
     display: none;
-}
-
-.restaurant-menu-icons {
-    width: 68px;
-    height: 24px;
-    background-color: #FFFFFF;
 }
 
 .restaurant-menu-icons-list {

@@ -1,0 +1,38 @@
+.welcome-section {
+  padding: 32px 0 32px;
+}
+
+.welcome__content_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.welcome__content_title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: calc(36 / 32);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.cursive-text {
+  font-style: italic;
+}
+.welcome__content_text {
+  max-width: 306px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.long-text {
+  max-width: 335px;
+}
+.welcome__main_img {
+  width: 100%;
+  height: 432px;
+}

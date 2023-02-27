@@ -5,13 +5,29 @@
 .header-link {
   color: var(--color-dark);
 }
+
+.header-link-soc {
+  fill: #ffffff;
+  stroke: var(--color-dark);
+}
+
 @media screen and (min-width: 1440px) {
-  .current::after {
+  .current-home::after {
+    background-color: var(--color-dark);
+  }
+
+  .current-restaurant::after {
+    background-color: var(--color-dark);
+  }
+  .current-hotel::after {
     background-color: var(--color-dark);
   }
 }
 
 .mobile-menu-open {
+  stroke: var(--color-dark);
+}
+.header-list-soc {
   stroke: var(--color-dark);
 }
 .header-logo {

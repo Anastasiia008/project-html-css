@@ -29,6 +29,11 @@
   color: var(--color-light);
 }
 
+.header-link-soc {
+  fill: var(--color-dark);
+  stroke: var(--color-light);
+}
+
 @media screen and (min-width: 1440px) {
   .mobile-menu {
     display: none;
@@ -36,10 +41,10 @@
   .mobile-menu-open {
     display: none;
   }
-  .current {
+  .current-home {
     position: relative;
   }
-  .current::after {
+  .current-home::after {
     content: '';
     width: 4px;
     height: 4px;
@@ -48,6 +53,32 @@
     top: 22px;
     background-color: var(--color-light);
   }
+
+  /* .current-hotel {
+    position: relative;
+  }
+  .current-hotel::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    background-color: var(--color-light);
+  }
+
+  .current-restaurant {
+    position: relative;
+  }
+  .current-restaurant::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    background-color: var(--color-light);
+  } */
 }
 
 @media screen and (min-width: 768px) {
@@ -79,7 +110,9 @@
   border: none;
   stroke: var(--color-light);
 }
-
+.mobile-menu-close-btn {
+  stroke: var(--color-light);
+}
 .header-logo {
   display: flex;
   flex-direction: column;
@@ -195,7 +228,9 @@
   display: flex;
   gap: 14px;
 }
-
+.mobile-menu-soc-link {
+  stroke: var(--color-light);
+}
 @media screen and (min-width: 768px) {
   .mobile-menu-soc {
     position: absolute;

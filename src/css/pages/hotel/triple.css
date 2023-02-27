@@ -1,0 +1,60 @@
+.section-triple{
+margin: auto;
+padding-top: 64px;
+padding-bottom: 64px;
+}
+.triple-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.triple-title{
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 1.25;;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--black);
+margin-top:32px ;
+margin-bottom: 32px;
+}
+.triple-text-list{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.triple-text {
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--black);
+}
+.triple-btn{
+    margin-top: 28px;
+  display: flex;
+  gap: 12px;
+}
+.link-btn{
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--black);
+padding: 8px 18px;
+border: 0.8px solid #121212;
+border-radius: 32px;
+max-width: 128px;
+}
+.prices-btn{
+   background-color: transparent;
+}

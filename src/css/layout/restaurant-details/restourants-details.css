@@ -2,8 +2,12 @@
 @media screen and (max-width: 767px) {
 
     .restaurant-details > .container {
-        max-width: 375px;
+        max-width: 365px;
+        margin-right: 0;
+        margin-left: 0;
         margin-top: 64px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .restaurant-details-title {
@@ -37,24 +41,91 @@
     .restaurant-details-list {
         margin-top: 32px;
         display: flex;
+        gap: 20px;
+    }
+
+    .restaurant-details-list-item {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .restaurant-details-pic {
+        width: 157px;
+        height: 201px;
     }
     
     .restaurant-details-desk-pic {
         display: none;
     }
 
-    .restaurant-details-icons-list {
+    .restaurant-details-icons {
         width: 68px;
-        height: 24px;
         margin-top: 18px;
+        margin-right: auto;
+        margin-bottom: 40px;
         display: flex;
     }
-
+    
+    .restaurant-details-icons-list {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .restaurant-details-icons-item {
+        width: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .restaurant-details-icon-b {
-        
+        stroke: #adacac;
+        fill: transparent;
+        transform: rotate(-180deg);
+    }
+    
+    .restaurant-details-icon {
+        stroke: var(--color-dark);
+        fill: transparent;
     }
 
     .restaurant-details-btn-low-wrap {
+        margin-bottom: 64px;
         display: flex;
+    }
+    
+    .restaurant-details-btn {
+        width: 140px;
+        height: 34px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: transparent;
+        border: 0.8px solid var(--color-dark);
+        border-radius: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .restaurant-details-btn-text {
+        font-family: var(--font-family);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: var(--color-dark);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .restaurant-details-btn:is(:hover, :focus) {
+        background-color: #FFFFFF;
+        border: none;
+    }
+    
+    .restaurant-details-btn:is(:hover, :focus) .restaurant-details-btn-text {
+        color: var(--color-dark);
     }
 }

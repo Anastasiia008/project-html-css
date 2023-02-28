@@ -38,7 +38,7 @@ text-transform: uppercase;
 color: var(--black);
 }
 .triple-btn{
-    margin-top: 28px;
+margin-top: 28px;
   display: flex;
   gap: 12px;
   justify-content: start;
@@ -65,12 +65,20 @@ text-align: center ;
 }
 
 /* ---------------------------------------Tablet------------------------- */
-@media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) {
 .container{
     padding-left: 32px;
     padding-right: 32px;
     margin: auto;
+<<<<<<< Updated upstream
     position: relative;
+=======
+    position: relative; 
+}
+.triple-list {
+    flex-wrap: wrap;
+    gap: 32px;
+>>>>>>> Stashed changes
 }
 .triple-list {
     flex-wrap: wrap;
@@ -82,7 +90,7 @@ line-height: 1.1;
 margin-top:40px ;
   }
 .triple-text-list{
-    flex-direction: row;
+    flex-direction:row;
     gap:32px;
     align-items: start;
     justify-content: start;
@@ -104,6 +112,7 @@ margin-top:40px ;
 }
 .prices-btn{
     min-width: 129px;
+<<<<<<< Updated upstream
  }
  .triple-list{
     gap:32px;
@@ -112,13 +121,20 @@ margin-top:40px ;
     position: absolute;
     top: 293px;
     left:383px;
+=======
+ } 
+ .item-third{
+    position: absolute;
+    top: 293px;
+    left:396px; 
+>>>>>>> Stashed changes
  }
-}
+} 
  /* ---------------------------------------Desktop------------------------------------- */ 
- @media screen and (min-width: 1440px) {
+   @media screen and (min-width: 1440px) {
     .container{
-        position: relative;
-        padding-right: 20px;
+         position: relative; 
+         padding-right: 20px;
         padding-left: 20px;
     }
     .item-first{
@@ -142,26 +158,39 @@ margin-top:40px ;
        flex-direction: row-reverse;
        justify-content: space-between;
     }
+<<<<<<< Updated upstream
     .triple-desktop-link{
         display: inline-block;
     }
+=======
+     
+  .triple-desktop-link{
+    display: inline-block;
+}
+>>>>>>> Stashed changes
     .link-btn{
-        line-height: 1.71;
+         line-height: 1.71;
         padding: 9px 24px;
         min-width: 166px;
-        height: 42px;
     }
      .prices-btn{
         min-width: 152px;
         height: 42px;
-       
-     } 
+     }  
      .triple-text {
         font-size: 18px;
         line-height: 1.33;
     }
     .triple-btn{
+<<<<<<< Updated upstream
         align-items: start;
         justify-content: space-evenly;
             }
   } 
+=======
+align-items: start;
+justify-content: space-evenly;
+    }
+     
+  }  
+>>>>>>> Stashed changes

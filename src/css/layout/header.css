@@ -2,23 +2,105 @@
   padding-top: 20px;
   padding-bottom: 20px;
   margin: auto;
+  border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 
   background-color: var(--color-dark);
-  border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
-.header-nav {
-  display: none;
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .header-nav {
+    display: none;
+  }
+}
+.header-list {
+  display: flex;
+  gap: 32px;
 }
 .header-link {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: 0.05em;
 
-  color: var(--color-dark);
+  color: var(--color-light);
 }
-.header-mobile {
-  display: flex;
-  gap: 83px;
+
+.header-link-soc {
+  fill: var(--color-dark);
+  stroke: var(--color-light);
+}
+
+@media screen and (min-width: 1440px) {
+  .mobile-menu {
+    display: none;
+  }
+  .mobile-menu-open {
+    display: none;
+  }
+  .current {
+    position: relative;
+  }
+  .current::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: 50%;
+    top: 22px;
+    background-color: var(--color-light);
+  }
+
+  /* .current-hotel {
+    position: relative;
+  }
+  .current-hotel::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    background-color: var(--color-light);
+  } */
+}
+
+/* .current-restaurant {
+    position: relative;
+  }
+  .current-restaurant::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    background-color: var(--color-light);
+  } 
+} */
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-list-soc {
+    display: none;
+  }
+  .mobile-menu-open {
+    margin-right: 83px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-list-soc {
+    display: flex;
+    gap: 14px;
+  }
 }
 
 .mobile-menu-open {
@@ -28,6 +110,29 @@
   background-color: transparent;
   border: none;
   stroke: var(--color-light);
+}
+.mobile-menu-close-btn {
+  stroke: var(--color-light);
+}
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: 0.18em;
+
+  color: var(--color-light);
+}
+
+.header-logo-desc {
+  font-size: 6px;
+  line-height: 1.33;
+  letter-spacing: 0.18em;
+
+  color: #d8d7d7;
 }
 
 .header-logo-mob {
@@ -43,6 +148,7 @@
 
   color: var(--color-light);
 }
+
 .header-logo-desc-mob {
   font-size: 6px;
   line-height: 1.33;
@@ -61,7 +167,26 @@
 
   background-color: var(--color-dark);
 }
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .mobile-menu-open-icon {
+    display: block;
+    width: 24px;
+    height: 16px;
+  }
 
+  .mobile-menu-close-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu-soc-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+}
 .js-menu-container {
   opacity: 0;
   visibility: hidden;
@@ -123,21 +248,13 @@
   display: flex;
   gap: 14px;
 }
-
-/* Настьон, ЦЕ Твоє? до поч роботи було, вирішила закоментити і все. Дякую, в мене ін класи) */
-/* .nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+.mobile-menu-soc-link {
+  stroke: var(--color-light);
 }
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+@media screen and (min-width: 768px) {
+  .mobile-menu-soc {
+    position: absolute;
+    top: 27px;
+    right: 32px;
+  }
 }
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
-} */

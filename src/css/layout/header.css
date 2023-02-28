@@ -179,7 +179,8 @@
     width: 16px;
     height: 16px;
   }
-
+}
+@media screen and (min-width: 768px) {
   .mobile-menu-soc-icon {
     display: block;
     width: 24px;

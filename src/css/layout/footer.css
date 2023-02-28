@@ -28,7 +28,7 @@
     bottom: -32px;
 }
 
-.nav {
+.desktop-nav {
     display: none;
 }
 
@@ -52,7 +52,6 @@
 }
 
 .footer-discr {
-    width: 149px;
     font-weight: 400;
     font-size: 8px;
     line-height: 1.2;
@@ -118,7 +117,7 @@
     }
 
     @media screen and (min-width: 1440px) {
-        .nav {
+        .desktop-nav {
             display: flex;
         }
 
@@ -138,6 +137,10 @@
         }
 
         .footer-name {
+            margin: auto;
+        }
+
+        .footer-discr {
             margin: auto;
         }
     }

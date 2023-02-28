@@ -54,10 +54,7 @@ img {
     height: auto;
 }
 .amenities-first-img {
-    position: relative;
-  top: 144px;
-    
-    z-index: 1;
+
 }
 .amenities-second-img {
 
@@ -76,4 +73,8 @@ img {
     min-width: 175px;
     height: 34px;
     display: block;
+
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }

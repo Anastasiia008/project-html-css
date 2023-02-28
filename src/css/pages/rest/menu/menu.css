@@ -172,3 +172,7 @@
 .restaurant-menu-btn:is(:hover, :focus) .restaurant-menu-btn-text {
     color: var(--color-dark);
 }
+
+.restaurant-menu-icons {
+    background-color: #FFFFFF;
+}

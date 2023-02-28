@@ -270,8 +270,13 @@
         you start your day right. Our spacious bathrooms feature luxurious
         toiletries and towels, so you can pamper yourself in complete privacy.
     </p>
-    <img class="welcome__main_img" srcset="/project-html-css/assets/mob-welcome-1-2x-7370cc7e.jpg 2x" src="/project-html-css/assets/mob-welcome-1-1x-5ceecf60.jpg" alt="hotel" width="335" height="432" />
-    </div>
+    <picture>
+        <source srcset="/project-html-css/assets/welcome-1-1x-769b6245.jpg 1x, /project-html-css/assets/welcome-1-2x-78befddf.jpg 2x" media="(min-width:1440px)"/> 
+        <source srcset="/project-html-css/assets/tab-welcome-1-1x-f375c340.jpg 1x, /project-html-css/assets/tab-welcome-1-2x-116beb63.jpg 2x" media="(min-width:768px)"/>
+        <source srcset="/project-html-css/assets/mob-welcome-1-1x-5ceecf60.jpg 1x, /project-html-css/assets/mob-welcome-1-2x-7370cc7e.jpg 2x" media="(max-width:767px)"/>
+        <img class="welcome__main_img" src="/project-html-css/assets/mob-welcome-1-1x-5ceecf60.jpg" alt="hotel" width="335" height="432" />
+    </picture>
+</div>
 </div>
 </section>
 

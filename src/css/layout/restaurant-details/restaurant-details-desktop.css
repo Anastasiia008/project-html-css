@@ -1,0 +1,11 @@
+
+@media screen and (min-width: 1440px) {
+
+    .restaurant-details > .container {
+        width: 1440px;
+    }
+
+    .restaurant-details-desk-pic {
+        display: block;
+    }
+}

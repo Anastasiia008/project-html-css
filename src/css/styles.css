@@ -19,7 +19,9 @@
 @import url('./layout/header.css');
 @import url('./layout/hero.css');
 @import url('./layout/about-complex.css');
-@import url('./layout/restourants-details.css');
+@import url('./layout/restaurant-details/restourants-details.css');
+@import url('./layout/restaurant-details/restaurant-details-tab.css');
+@import url('./layout/restaurant-details/restaurant-details-desktop.css');
 @import url('./layout/welcome.css');
 @import url('./layout/hotel-details.css');
 @import url('./layout/location.css');

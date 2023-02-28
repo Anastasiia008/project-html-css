@@ -1,0 +1,55 @@
+
+@media screen and (max-width: 767px) {
+
+    .restaurant-details > .container {
+        max-width: 375px;
+        margin-top: 64px;
+    }
+
+    .restaurant-details-title {
+        font-family: var(--font-family);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1.0;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: var(--color-dark);
+    }
+
+    .restaurant-details-text {
+        max-width: 221px;
+        margin-top: 24px;
+        font-family: var(--font-family);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: var(--color-dark);
+    }
+
+    .restaurant-details-btn-wrap {
+        display: none;
+    }
+
+    .restaurant-details-list {
+        margin-top: 32px;
+        display: flex;
+    }
+    
+    .restaurant-details-desk-pic {
+        display: none;
+    }
+
+    .restaurant-details-icons-list {
+        width: 68px;
+        height: 24px;
+        margin-top: 18px;
+    }
+
+    .restaurant-details-btn-low-wrap {
+        display: flex;
+    }
+}

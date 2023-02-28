@@ -45,13 +45,22 @@ margin-top: 40px;
 .room-amenities-item {
 }
 .amenities-img-set {
-    position: relative;
+  position: relative;
+  margin-top: 35px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .amenities-first-img {
-    position: absolute;
-    top: 144px;
+    position: relative;
+  top: 144px;
+    
+    z-index: 1;
 }
 .amenities-second-img {
+
 }
 .room-book-btn {
     font-family: var(--font-family);
@@ -67,9 +76,4 @@ margin-top: 40px;
     min-width: 175px;
     height: 34px;
     display: block;
-
-    margin-top: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 64px;
 }

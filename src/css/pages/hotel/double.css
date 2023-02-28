@@ -135,6 +135,7 @@ img {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
   }
   .img__block_first {
     min-width: 387px;

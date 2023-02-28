@@ -47,6 +47,10 @@
         line-height: 1.33;
     }
 
+    .restaurant-menu-icons-list {
+        gap: 32px;
+    }
+
     .restaurant-menu-icon-b {
         width: 7px;
         height: 14px;

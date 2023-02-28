@@ -1,13 +1,11 @@
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     .restaurant-details > .container {
         max-width: 365px;
-        margin-right: 0;
-        margin-left: 0;
         margin-top: 64px;
         padding-right: 15px;
-        padding-left: 15px;
+        padding-left: 2px;
     }
 
     .restaurant-details-title {
@@ -41,16 +39,14 @@
     .restaurant-details-list {
         margin-top: 32px;
         display: flex;
-        gap: 20px;
+    }
+
+    .restaurant-details-list-item:nth-child(-n+1) {
+        margin-right: 20px;
     }
 
     .restaurant-details-list-item {
         width: calc((100% - 20px) / 2);
-    }
-
-    .restaurant-details-pic {
-        width: 157px;
-        height: 201px;
     }
     
     .restaurant-details-desk-pic {
@@ -91,13 +87,13 @@
     .restaurant-details-btn-low-wrap {
         margin-bottom: 64px;
         display: flex;
+        justify-content: center;
+        gap: 12px;
     }
     
     .restaurant-details-btn {
         width: 140px;
         height: 34px;
-        margin-right: auto;
-        margin-left: auto;
         background-color: transparent;
         border: 0.8px solid var(--color-dark);
         border-radius: 32px;

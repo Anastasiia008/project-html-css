@@ -5,7 +5,19 @@
         width: 1440px;
     }
 
+    .restaurant-details-btn-wrap {
+        display: flex;
+    }
+
+    .restaurant-details-list-item {
+        width: calc((100% - 32px) / 5);
+    }
+
     .restaurant-details-desk-pic {
         display: block;
+    }
+
+    .restaurant-details-btn-low-wrap {
+        display: none;
     }
 }

@@ -50,16 +50,11 @@
     .restaurant-menu-icon-b {
         width: 7px;
         height: 14px;
-        stroke: var(--color-menu-dark);
-        fill: transparent;
-        transform: rotate(-180deg);
     }
     
     .restaurant-menu-icon {
         width: 7px;
         height: 14px;
-        stroke: var(--color-light);
-        fill: transparent;
     }
 
     .restaurant-menu-btn {

@@ -97,7 +97,6 @@
     }
     
     .footer-name {
-        text-align: center;
         margin: auto;
     }
     
@@ -136,5 +135,9 @@
             text-transform: uppercase;
             color: var(--black);
             letter-spacing: 0.05em;
+        }
+
+        .footer-name {
+            margin: auto;
         }
     }

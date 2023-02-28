@@ -1,0 +1,124 @@
+<section>
+  <div class="backdrop">
+    <div class="modal">
+      <button type="button" class="close-btn-room">
+        <svg class="" width="13" height="13">
+          <use href="../img/icons/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+      <form class="">
+        <h2 class="title-modal-room">
+          BOOK <span class="title-modal-room-italic">A ROOM</span>
+        </h2>
+        <label class="room-people first-left">
+          <p class="suptitle-modal-room">YOUR NAME</p>
+          <span class="">
+            <input
+              type="text"
+              name="user_name"
+              minlength="2"
+              required
+              autocomplete="on"
+              pattern="[a-zA-Zа-яА-Я]+$"
+              class="input-room"
+            />
+          </span>
+          <p class="subtitle-modal-room">WHO SHOULD BOOK A TABLE FOR?</p>
+        </label>
+        <label class="room-people second-left">
+          <p class="suptitle-modal-room">TODAY</p>
+          <span class="today-position">
+            <select name="today" id="today" class="today">
+              <option value="1" selected>1</option>
+              <option value="2">tomorow</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+            <input
+              type="text"
+              name="booking_date"
+              for="today"
+              required
+              pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}"
+              title="date: xx/xx/xx"
+              class="input-room"
+            />
+            <svg class="arrow-svg" width="10" height="5">
+              <use href="../img/icons/sprite.svg#icon-arrow"></use>
+            </svg>
+            <p class="subtitle-modal-room">CHECK-IN DATE</p>
+          </span>
+        </label>
+        <label class="room-people second-right">
+          <p class="suptitle-modal-room">25/04/2023</p>
+          <span class="today-position">
+            <select name="today" id="today" class="today">
+              <option value="1" selected>1</option>
+              <option value="2">tomorow</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+            <input
+              type="text"
+              name="booking_date"
+              for="today"
+              required
+              pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}"
+              title="date: xx/xx/xx"
+              class="input-room"
+            />
+            <svg class="arrow-svg" width="10" height="5">
+              <use href="../img/icons/sprite.svg#icon-arrow"></use>
+            </svg>
+            <p class="subtitle-modal-room">CHECK-OUT DATE</p>
+          </span>
+        </label>
+        <label class="room-people first-right">
+          <p class="suptitle-modal-room">+ 38 ( )</p>
+          <span class="today-position">
+            <input
+              type="tel"
+              name="booking_date"
+              for="today"
+              required
+              pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}"
+              title="date: xx/xx/xx"
+              class="input-room"
+            />
+            <p class="subtitle-modal-room">PHONE NUMBER</p>
+          </span>
+        </label>
+        <label class="room-people last-left">
+          <p class="suptitle-modal-room">DOUBLE SUITE</p>
+          <span class="arrow-position">
+            <select name="people" id="people" class="arrow">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+            <input
+              type="text"
+              name="number_people"
+              for="people"
+              required
+              pattern="[0-9]"
+              class="input-room"
+            />
+            <svg class="arrow-svg" width="10" height="5">
+              <use href="../img/icons/sprite.svg#icon-arrow"></use>
+            </svg>
+            <p class="subtitle-modal-room">NUMBER CATEGORY</p>
+          </span>
+        </label>
+        <button type="submit" class="btn-submit">MAKE A RESERVATION</button>
+      </form>
+    </div>
+  </div>
+</section>

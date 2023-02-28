@@ -41,15 +41,15 @@
   .mobile-menu-open {
     display: none;
   }
-  .current-home {
+  .current {
     position: relative;
   }
-  .current-home::after {
+  .current::after {
     content: '';
     width: 4px;
     height: 4px;
     position: absolute;
-    left: 18px;
+    left: 50%;
     top: 22px;
     background-color: var(--color-light);
   }
@@ -65,9 +65,10 @@
     left: 18px;
     top: 22px;
     background-color: var(--color-light);
-  }
+  } */
+}
 
-  .current-restaurant {
+/* .current-restaurant {
     position: relative;
   }
   .current-restaurant::after {
@@ -78,8 +79,8 @@
     left: 18px;
     top: 22px;
     background-color: var(--color-light);
-  } */
-}
+  } 
+} */
 
 @media screen and (min-width: 768px) {
   .header-container {

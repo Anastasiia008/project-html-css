@@ -41,6 +41,8 @@ color: var(--black);
     margin-top: 28px;
   display: flex;
   gap: 12px;
+  justify-content: start;
+  align-items: center;
 }
 .link-btn{
 font-family: var(--font-family);
@@ -68,8 +70,12 @@ text-align: center ;
     padding-left: 32px;
     padding-right: 32px;
     margin: auto;
+    position: relative;
 }
-    
+.triple-list {
+    flex-wrap: wrap;
+    gap: 32px;
+} 
 .triple-title{
 font-size: 40px;
 line-height: 1.1;
@@ -97,7 +103,15 @@ margin-top:40px ;
     min-width: 140px;
 }
 .prices-btn{
-    min-width: 117px;
+    min-width: 129px;
+ }
+ .triple-list{
+    gap:32px;
+ }
+ .item-third{
+    position: absolute;
+    top: 293px;
+    left:383px;
  }
 }
  /* ---------------------------------------Desktop------------------------------------- */ 
@@ -128,6 +142,9 @@ margin-top:40px ;
        flex-direction: row-reverse;
        justify-content: space-between;
     }
+    .triple-desktop-link{
+        display: inline-block;
+    }
     .link-btn{
         line-height: 1.71;
         padding: 9px 24px;
@@ -143,7 +160,8 @@ margin-top:40px ;
         font-size: 18px;
         line-height: 1.33;
     }
-    .triple-text-list{
-justify-content: baseline;
-    }
-  }
+    .triple-btn{
+        align-items: start;
+        justify-content: space-evenly;
+            }
+  } 

@@ -22,7 +22,7 @@
 }
 
 .restaurant-menu-list-wrap-desk {
-    margin-bottom: 96px;
+    margin-bottom: 54px;
 }
 
 .restaurant-menu-list-wrap {
@@ -133,8 +133,36 @@
     display: none;
 }
 
+.restaurant-menu-icons {
+    width: 68px;
+    height: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    display: flex;
+}
+
 .restaurant-menu-icons-list {
     display: flex;
+    gap: 20px;
+}
+
+.restaurant-menu-icons-item {
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurant-menu-icon-b {
+    stroke: var(--color-menu-dark);
+    fill: transparent;
+    transform: rotate(-180deg);
+}
+
+.restaurant-menu-icon {
+    stroke: var(--color-light);
+    fill: transparent;
 }
 
 .restaurant-menu-btn {
@@ -171,8 +199,4 @@
 
 .restaurant-menu-btn:is(:hover, :focus) .restaurant-menu-btn-text {
     color: var(--color-dark);
-}
-
-.restaurant-menu-icons {
-    background-color: #FFFFFF;
 }

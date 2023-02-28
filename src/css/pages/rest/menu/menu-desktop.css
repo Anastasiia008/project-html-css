@@ -59,4 +59,8 @@
         bottom: -15px;
     }
 
+    .restaurant-menu-icons {
+        display: none;
+    }
+
 }

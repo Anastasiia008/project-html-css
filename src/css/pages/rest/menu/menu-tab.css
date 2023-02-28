@@ -14,7 +14,7 @@
     }
 
     .restaurant-menu-list-wrap-desk {
-        margin-bottom: 108px;
+        margin-bottom: 53px;
     }
 
     .restaurant-menu-list-title {
@@ -45,6 +45,21 @@
     .restaurant-menu-dish-price {
         font-size: 18px;
         line-height: 1.33;
+    }
+
+    .restaurant-menu-icon-b {
+        width: 7px;
+        height: 14px;
+        stroke: var(--color-menu-dark);
+        fill: transparent;
+        transform: rotate(-180deg);
+    }
+    
+    .restaurant-menu-icon {
+        width: 7px;
+        height: 14px;
+        stroke: var(--color-light);
+        fill: transparent;
     }
 
     .restaurant-menu-btn {

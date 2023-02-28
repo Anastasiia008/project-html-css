@@ -56,6 +56,12 @@
 .img__block_big {
   margin: 0px;
 }
+img{
+  height: 100%;
+}
+.img__block_big img {
+  height: 468px;
+}
 .img__block_small {
   margin: 0px;
   display: flex;

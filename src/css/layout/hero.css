@@ -1,4 +1,5 @@
 
+       
 .hero-main{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -106,7 +107,7 @@ display: block;
     align-items: center;
     justify-content: center;
    position: absolute;
-   top:605px;
+   top:608px;
    left:234px; 
 }
 .hero-btn{
@@ -117,7 +118,7 @@ display: block;
     }
     
 }
-/* ------------------------------------desktop------------------------------- */
+/* ------------------------------------desktop--------------------------------------------------------------------- */
 @media screen and (min-width: 1440px) {
     .container{
         padding-left: 0;

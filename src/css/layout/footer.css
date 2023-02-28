@@ -9,7 +9,7 @@
 .footer-mob {
     padding: 0;
     display: flex;
-    gap: 98px;
+    justify-content: space-between;
 }
 
 .curent {
@@ -104,4 +104,37 @@
     .footer-discr {
         text-align: center;
     }
+    }
+
+    @media screen and (min-width: 768px) {
+
+        .footer-icon-list {
+            column-gap: 16px;
+        } 
+    
+        .footer-icon-item {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .nav {
+            display: flex;
+        }
+
+        .footer-story-list {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 32px;
+        }
+
+        .footer-story-link {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.2;
+            text-transform: uppercase;
+            color: var(--black);
+            letter-spacing: 0.05em;
+        }
     }

@@ -60,41 +60,44 @@ span {
   transition: opacity 250ms var(--cubic), visibility 250ms var(--cubic);
 }
 
-/* ------------------------------- */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .modal {
     display: block;
+    align-items: flex-start;
     position: relative;
     top: 50%;
     left: 50%;
-    width: 335px;
-    height: 636px;
-    padding: 24px 24px 40px;
+    width: 628px;
+    height: 572px;
+    padding: 32px 32px 60px;
 
     background: var(--dark-color);
     border-radius: 2px;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms var(--cubic);
   }
+
   /* ----------------------------------------- */
   /* заголовки, текст */
   .title-modal-room {
-    width: 194px;
-    height: 38px;
-    margin-bottom: 40px;
+    width: 249px;
+    height: 40px;
+    left: 32px;
+    top: 32px;
+    margin-bottom: 60px;
 
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 1.35;
+    font-size: 36px;
+    line-height: 1.11;
 
     letter-spacing: -0.02em;
     text-transform: uppercase;
 
     color: var(--title-text-color);
   }
-  .title-modal-table-italic {
+  .title-modal-room-italic {
     display: inline;
     font-style: italic;
   }
@@ -139,8 +142,8 @@ span {
     position: absolute;
     width: 28px;
     height: 28px;
-    top: 14px;
-    right: 14px;
+    top: 24px;
+    right: 24px;
     border: none;
     background: var(--dark-color);
     cursor: pointer;
@@ -150,12 +153,12 @@ span {
 
   .btn-submit {
     position: absolute;
-    left: 50px;
-    top: 550px;
+    left: 92px;
+    top: 460px;
     display: block;
     margin: 0 auto;
-    min-width: 235px;
-    padding: 14px 48px;
+    min-width: 444px;
+    padding: 14px 133px;
 
     font-weight: 400;
     font-size: 14px;
@@ -171,6 +174,7 @@ span {
     background-color: var(--color-light);
     color: var(--color-dark);
   }
+
   /* ----------------------------------------- */
   /* інпути */
   .input-room {
@@ -185,13 +189,9 @@ span {
     color: var(--title-color);
     border-bottom: 0.8px solid rgba(246, 246, 246, 0.2);
     transition: border-bottom-color 250ms var(--cubic);
-    width: 100%;
+    width: 266px;
   }
 
-  .room-people {
-    display: block;
-    margin-bottom: 32px;
-  }
   /* ------------------------------------------ */
   /* Випадаючі списки */
   .arrow-position {
@@ -203,9 +203,9 @@ span {
 
   .arrow {
     position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 270px;
+    width: 20px;
+    height: 20px;
+    left: 250px;
     top: -12px;
     flex: none;
     order: 2;
@@ -217,8 +217,8 @@ span {
     position: absolute;
     width: 12px;
     height: 12px;
-    left: 270px;
-    top: -12px;
+    left: 250px;
+    top: -6px;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -227,14 +227,46 @@ span {
 
   .today {
     position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 270px;
+    width: 20px;
+    height: 20px;
+
+    left: 246px;
     top: -12px;
     flex: none;
     order: 2;
     flex-grow: 0;
     z-index: 2;
     opacity: 0;
+  }
+  /* ------------------------------- */
+  .first-right {
+    position: absolute;
+
+    left: 330px;
+    top: 132px;
+  }
+  .second-right {
+    position: absolute;
+
+    left: 330px;
+    top: 228px;
+  }
+  .first-left {
+    position: absolute;
+
+    left: 32px;
+    top: 132px;
+  }
+  .second-left {
+    position: absolute;
+
+    left: 32px;
+    top: 228px;
+  }
+  .last-left {
+    position: absolute;
+
+    left: 32px;
+    top: 324px;
   }
 }

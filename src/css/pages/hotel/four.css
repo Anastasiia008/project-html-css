@@ -74,17 +74,22 @@ margin-top: 32px;
 }
 @media screen and (min-width:768px) {
     .four-seater-photos {
-width: 768px;
+flex-wrap: nowrap;
+
     }
     .first-seater-foto {
       height: 261px;
       width: 223px;
+
 
     }
     .second-seater-foto {
 
     }
     .third-seater-photo {
+position: absolute;
+left: 0;
+bottom: 0;
 
     }
     .four-seater-text {

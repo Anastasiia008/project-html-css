@@ -155,7 +155,6 @@ color: #121212;
 } */
 .l-title{
     display: flex;
-    flex-direction: column;
 }
 .location-title{    
     display: none;

@@ -28,7 +28,7 @@
 
     
     <script type="module" crossorigin src="/project-html-css/assets/mobile-menu-61401fd3.js"></script>
-    <link rel="stylesheet" href="/project-html-css/assets/mobile-menu-842ca132.css">
+    <link rel="stylesheet" href="/project-html-css/assets/mobile-menu-81e14d3b.css">
     <link rel="stylesheet" href="/project-html-css/assets/header-pages-9f58b6a1.css">
   </head>
 
@@ -574,15 +574,16 @@
     <div class="backdrop is-hidden" data-modal="modal-price">
     <div class="price modal">
 
-    <button class="price-btn" type="button modal-close-btn">
+    <button class="price-btn modal-close-btn" type="button">
         <svg width="12" height="12">
             <use href="../img/icons/sprite.svg#btn-close"></use>
         </svg>
     </button>
-    <h2 class="price-title">PRICES PER ROOM</h2>
+    <h2 class="price-title">PRICES PER <span class="price-style">ROOM</span></h2>
     <h3 class="price-small-title">DOUBLE SUITE</h3>
     
     <form class="price-form">
+    <div class="tablet-position">
         <div class="price-input-wrap">
             <select class="price-input" id="number" name="number">
                 <option value="1" selected>1</option>
@@ -593,19 +594,22 @@
                 <option value="6">6</option>
                 <option value="7">7</option>
             </select>
-            <svg class="price-input-icon" width="10" height="5">
+            <svg class="price-input-icon" width="20" height="20">
                 <use href="../img/icons/sprite.svg#price-icon"></use>
             </svg>
             <label class="price-name" for="number">NUMBER OF NIGHTS</label>
         </div>
         <div class="price-input-wrap">
-            <input class="price-input" type="date" name="number" id="check">
-            <svg class="price-input-icon" width="10" height="5">
-                <use href="../img/icons/sprite.svg#price-icon"></use>
-            </svg>
+            <input class="price-input" type="text" name="number" id="check" placeholder="Get input date in dd-mm-yyyy format" pattern="\d{2}-\d{2}-\d{4}">
             <label class="price-name" for="number">CHECK-IN DATE</label>
         </div>
+    </div>
+    <div class="tablet-btn">
         <button class="submit-bth" type="submit">MAKE A RESERVATION</button>
+    </div>
+        
+
+
     </form>
 
     </div>

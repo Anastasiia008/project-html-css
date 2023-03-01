@@ -19,7 +19,7 @@ body {
   color: var(--color-light);
 }
 img {
-    display: block;
+   display: block;
     max-width: 100%;
     height: auto;
 }
@@ -44,17 +44,12 @@ img {
   padding-left: 30px;
 
 }
-
-
-
 .amenities-wrapt {
 
 }
-.amenities-first-img {
-
-}
+.amenities-first-img,
 .amenities-second-img {
-
+max-width: 100%
 }
 
 .room-book-btn {
@@ -87,15 +82,8 @@ transform: translate(-50%, -50%); */
 .amenities-img-set {
 
 }
-.amenities-first-img,
-.amenities-second-img
-{
 
-}
-.room-book-btn {
-
-}
-} */
+*/
 
 
 
@@ -108,11 +96,10 @@ transform: translate(-50%, -50%); */
     }
   } */
   
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .hotel-rooms-list {
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 616px;
     }
     .hotel-rooms-item {
     flex: 0 1 50%;
@@ -123,10 +110,10 @@ transform: translate(-50%, -50%); */
     }
     
 
-    .amenities-img-set {
+    /* .amenities-img-set {
         width: 850px;
         position: absolute;
         right: 0;
         top: 645px;
-    }
-  } */
+    } */
+  }

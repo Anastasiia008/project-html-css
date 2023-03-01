@@ -17,7 +17,8 @@
     
     
     
-    <link rel="stylesheet" href="/project-html-css/assets/styles-dc8c5273.css">
+    <script type="module" crossorigin src="/project-html-css/assets/mobile-menu-61401fd3.js"></script>
+    <link rel="stylesheet" href="/project-html-css/assets/mobile-menu-491718c3.css">
     <link rel="stylesheet" href="/project-html-css/assets/header-pages-9f58b6a1.css">
   </head>
   <body>
@@ -170,7 +171,7 @@
     <h1 class="rest-hero-title">restaurant</h1>
 
      <div class="rest-btn-set">
-      <button class="rest-btn">book a table</button>
+      <button class="rest-btn js-open-modal" data-modal="modal-table">book a table</button>
       <a href="" class="rest-btn">View a menu</a>
      </div>
     
@@ -498,7 +499,7 @@
                 </li>
             </ul>
         </div>
-        <button class="restaurant-menu-btn" type="button">
+        <button class="restaurant-menu-btn js-open-modal" data-modal="modal-table" type="button">
             <span class="restaurant-menu-btn-text">Book a table</span>
         </button>
     </div>
@@ -558,10 +559,10 @@
 </footer>
 
 
-    <div class="backdrop is-hidden">
-    <div class="price">
+    <div class="backdrop is-hidden" data-modal="modal-price">
+    <div class="price modal">
 
-    <button class="price-btn" type="button">
+    <button class="price-btn" type="button modal-close-btn">
         <svg width="12" height="12">
             <use href="../img/icons/sprite.svg#btn-close"></use>
         </svg>
@@ -597,7 +598,232 @@
 
     </div>
 </div>
+      <div class="backdrop is-hidden" data-modal="modal-room">
+    <div class="modal">
+      <button type="button" class="modal-close-btn close-btn-room">
+        <svg class="" width="12" height="12">
+          <use href="../img/icons/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+      <form class="">
+        <h2 class="title-modal-room">
+          BOOK <span class="title-modal-table-italic">A ROOM</span>
+        </h2>
+        <label class="room-people">
+          <p class="suptitle-modal-room">YOUR NAME</p>
+          <span class="">
+            <input
+              type="text"
+              name="user_name"
+              minlength="2"
+              required
+              autocomplete="on"
+              pattern="[a-zA-Zа-яА-Я]+$"
+              class="input-room username"
+            />
+          </span>
+          <p class="subtitle-modal-room">Who should book a table for?</p>
+        </label>
+        <label class="room-people">
+          <p class="suptitle-modal-room">+ 38 ( )</p>
+          <span class="">
+            <input
+              type="tel"
+              name="user_phone"
+              required
+              pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="Number format: +38 xxx xxx xx xx"
+              autocomplete="on"
+              class="input-room userphone"
+            />
+          </span>
+          <p class="subtitle-modal-room">Phone number</p>
+        </label>
+        <label class="room-people">
+          <p class="suptitle-modal-room">TODAY</p>
+          <span class="today-position">
+            <select name="today" id="today" class="today">
+              <option value="1" selected>1</option>
+              <option value="2">tomorow</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+            <input
+              type="text"
+              name="booking_date"
+              for="today"
+              required
+              pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}"
+              title="date: xx/xx/xx"
+              class="input-room"
+            />
+            <svg class="arrow-svg" width="10" height="5">
+              <use href="../img/icons/sprite.svg#icon-arrow"></use>
+            </svg>
+            <p class="subtitle-modal-room">CHECK-IN DATE</p>
+          </span>
+        </label>
+        <label class="room-people">
+          <p class="suptitle-modal-room">25/04/2023</p>
+          <span class="today-position">
+            <select name="today" id="today" class="today">
+              <option value="1" selected>1</option>
+              <option value="2">tomorow</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+            <input
+              type="text"
+              name="booking_date"
+              for="today"
+              required
+              pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}"
+              title="date: xx/xx/xx"
+              class="input-room"
+            />
+            <svg class="arrow-svg" width="10" height="5">
+              <use href="../img/icons/sprite.svg#icon-arrow"></use>
+            </svg>
+            <p class="subtitle-modal-room">CHECK-IN DATE</p>
+          </span>
+        </label>
+        <label class="">
+          <p class="suptitle-modal-room">DOUBLE SUITE</p>
+          <span class="arrow-position">
+            <select name="people" id="people" class="arrow">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+            <input
+              type="text"
+              name="number_people"
+              for="people"
+              required
+              pattern="[0-9]"
+              class="input-room"
+            />
+            <svg class="arrow-svg" width="10" height="5">
+              <use href="../img/icons/sprite.svg#icon-arrow"></use>
+            </svg>
+            <p class="subtitle-modal-room">NUMBER CATEGORY</p>
+          </span>
+        </label>
+        <button type="submit" class="btn-submit">MAKE A RESERVATION</button>
+      </form>
+    </div>
+  </div>
 
-    <script src="./mobile-menu.js"></script>
+    <section>
+  <div class="backdrop is-hidden" data-modal="modal-table">
+    <div class="modal">
+      <button type="button" class="modal-close-btn close-btn-table">
+        <svg class="" width="13" height="13">
+          <use href="../img/icons/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+      <form class="">
+        <h2 class="title-modal-table">
+          BOOK <span class="title-modal-table-italic">A TABLE</span>
+        </h2>
+        <label class="room-people first-left">
+          <p class="suptitle-modal-table">YOUR NAME</p>
+          <span class="">
+            <input
+              type="text"
+              name="user_name"
+              minlength="2"
+              required
+              autocomplete="on"
+              pattern="[a-zA-Zа-яА-Я]+$"
+              class="input-table"
+            />
+          </span>
+          <p class="subtitle-modal-table">WHO SHOULD BOOK A TABLE FOR?</p>
+        </label>
+        <label class="room-people second-left">
+          <p class="suptitle-modal-table">+ 38 ( )</p>
+          <span class="">
+            <input
+              type="tel"
+              name="user_phone"
+              required
+              pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="Number format: +38 xxx xxx xx xx"
+              autocomplete="on"
+              class="input-table"
+            />
+          </span>
+          <p class="subtitle-modal-table">Phone number</p>
+        </label>
+        <label class="room-people second-right">
+          <p class="suptitle-modal-table">TODAY</p>
+          <span class="today-position">
+            <select name="today" id="today" class="today">
+              <option value="1" selected>1</option>
+              <option value="2">tomorow</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+            <input
+              type="text"
+              name="booking_date"
+              for="today"
+              required
+              pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}"
+              title="date: xx/xx/xx"
+              class="input-table"
+            />
+            <svg class="arrow-svg" width="10" height="5">
+              <use href="../img/icons/sprite.svg#icon-arrow"></use>
+            </svg>
+            <p class="subtitle-modal-table">WHAT DATE TO BOOK?</p>
+          </span>
+        </label>
+        <label class="room-people first-right">
+          <p class="suptitle-modal-table">NUMBER OF PEOPLE</p>
+          <span class="today-position">
+            <select name="today" id="today" class="today">
+              <option value="1" selected>1</option>
+              <option value="2">tomorow</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+            <input
+              type="text"
+              name="booking_date"
+              for="today"
+              required
+              pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}"
+              title="date: xx/xx/xx"
+              class="input-table"
+            />
+            <svg class="arrow-svg" width="10" height="5">
+              <use href="../img/icons/sprite.svg#icon-arrow"></use>
+            </svg>
+          </span>
+        </label>
+        <button type="submit" class="btn-submit">MAKE A RESERVATION</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+    
   </body>
 </html>

@@ -173,3 +173,13 @@
   display: flex;
   flex-direction: column-reverse;
 }
+@media screen and (max-width: 768px) {
+  .img__block_first {
+    max-height: 150px;
+    min-width: 158px;
+  }
+  .img__block_second {
+    max-height: 150px;
+    min-width: 158px;
+  }
+}

@@ -1,7 +1,16 @@
+
+       
 .hero-main{
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #121212;
+}
+img{
+    display: block;
+    max-width: 542px;
+}
+.container{
+    position: relative;
 }
 .hero-title{
 font-family: 'DM Sans';
@@ -13,15 +22,9 @@ letter-spacing: -0.02em;
 text-transform: uppercase;
 color: #F7F7F7;
 max-width:283px;
-top: 490px;
+top:389px;
 left: 46px;
 position: absolute; 
-margin-left: auto;
-}
-.hero-picture{
-    position: relative ;
-    width: 100%;
-    margin-bottom: 54px;
 }
 .hero-text{
 font-family: 'DM Sans';
@@ -39,10 +42,7 @@ max-width: 339px;
     flex-direction: column;
     gap: 32px;
     justify-content: center;
-    align-items: center;
-}
-.text-item{
-    width: 100%;
+    align-items: start;
 }
 .word{
     font-family: 'DM Sans';
@@ -70,4 +70,110 @@ display: block;
     align-items: center;
     justify-content: center;
     margin-bottom: 66px;
+    margin-top: 54px;
+}
+/* -------------------------------------tablet---------------------------------- */
+@media screen and (min-width: 768px) {
+    .hero-main{
+        padding-top: 50px;
+        padding-bottom: 38px;
+        margin: auto;
+  }
+  .container{
+    position: relative;
+  }
+  .hero-picture{
+    width: 542px;
+    margin: auto;
+  }
+  .hero-title{
+    font-size: 150px;
+    max-width:530px;
+    top: 478px;
+    left: 119px;
+    position: absolute; 
+  }
+  .text-list{
+    margin-top: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    text-align: start; 
+}
+.hero-buttons{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+   position: absolute;
+   top:608px;
+   left:234px; 
+}
+.hero-btn{
+    font-size: 15px;
+    line-height: 1.71;
+    padding: 8px 24px;
+    min-width: 143px;
+    }
+    
+}
+/* ------------------------------------desktop--------------------------------------------------------------------- */
+@media screen and (min-width: 1440px) {
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .hero-main{
+        margin: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+  }
+    .hero-title{
+        font-size: 180px;
+        max-width:636px;
+        position: absolute;
+        top: 274px;
+        left: 32px;
+      }
+      .hero-btn{
+        font-size: 18px;
+        line-height: 1.33;
+        padding: 9px 24px;
+        min-width: 170px;
+      }
+      
+   .hero-buttons{
+    display: flex;
+    gap: 14px;
+    position: absolute;
+    bottom: 10px;
+    left:855px;
+  
+} 
+.text-list{
+    position: absolute;
+    bottom: 48px;
+    left: 32px;
+} 
+.hero-picture{
+margin-right: 0;
+}
+
+.hero-btn{
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 9px 24px;
+    min-width: 170px;
+  }
+.hero-buttons{
+display: flex;
+gap: 14px;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 20px;
+right: 0;
+}
 }

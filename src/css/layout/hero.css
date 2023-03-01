@@ -123,14 +123,12 @@ display: block;
     .container{
         padding-left: 0;
         padding-right: 0;
-
     }
     
     .hero-main{
         margin: auto;
         padding-top: 0;
         padding-bottom: 0;
-        width: 1440px;
   }
     .hero-title{
         font-size: 180px;
@@ -151,7 +149,7 @@ display: block;
     gap: 14px;
     position: absolute;
     bottom: 10px;
-    left:991px;
+    left:855px;
   
 } 
 .text-list{
@@ -161,7 +159,6 @@ display: block;
 } 
 .hero-picture{
 margin-right: 0;
-
 }
 
 .hero-btn{
@@ -178,9 +175,5 @@ justify-content: center;
 position: absolute;
 bottom: 20px;
 right: 0;
-
-}
-.hero-picture{
-
 }
 }

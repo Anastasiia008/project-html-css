@@ -1,0 +1,140 @@
+.footer {
+    width: 100%;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 64px;
+    background-color: #D8D8D8;
+}
+
+.footer-mob {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.curent {
+    color: rgba(18, 18, 18, 0.3);
+    position: relative;
+}
+
+
+.curent::after {
+    content: "";
+    width: 100%;
+    height: 0.5px;
+    background-color: rgba(18, 18, 18, 0.3);
+    position: absolute;
+    left: 0px;
+    bottom: -32px;
+}
+
+.nav {
+    display: none;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+}
+
+.footer-name {
+    max-width: 93px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--black);
+    letter-spacing: 0.2em;
+}
+
+.footer-discr {
+    width: 149px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.2;
+    color: var(--black);
+}
+
+.footer-icon-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 14px;
+}
+
+.footer-icon-item {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-link-soc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.footer-soc-icon {
+    fill: transparent;
+    stroke: var(--color-dark);
+}
+
+@media screen and (max-width: 320px) {
+    .footer-mob {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+    
+    .footer-link {
+        align-items: center;
+    }
+    
+    .footer-name {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .footer-discr {
+        text-align: center;
+    }
+    }
+
+    @media screen and (min-width: 768px) {
+
+        .footer-icon-list {
+            column-gap: 16px;
+        } 
+    
+        .footer-icon-item {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .nav {
+            display: flex;
+        }
+
+        .footer-story-list {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 32px;
+        }
+
+        .footer-story-link {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.2;
+            text-transform: uppercase;
+            color: var(--black);
+            letter-spacing: 0.05em;
+        }
+    }

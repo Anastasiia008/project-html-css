@@ -121,6 +121,7 @@ img {
   }
   .double__content_text {
     max-width: 355px;
+    min-height: 192px;
   }
   .lower-text {
     max-width: 299px;
@@ -135,6 +136,7 @@ img {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
   }
   .img__block_first {
     min-width: 387px;
@@ -144,12 +146,16 @@ img {
     min-width: 386px;
     min-height: 395px;
   }
-  .img__block_big img {
+  .img__block_big {
     width: 539px;
     height: 762px;
     margin: 0px;
     position: absolute;
     left: 50%;
-    transform: translateX(-47%);
+    transform: translateX(-50%);
+  }
+  .img__block_big img {
+    height: 100%;
+    width: 100%;
   }
 }

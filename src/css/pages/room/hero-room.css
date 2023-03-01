@@ -1,3 +1,7 @@
+.double-room-hero {
+    padding-bottom: 64px;
+}
+
 .double-room-container {
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +16,7 @@
     text-transform: uppercase;
     color: #121212;
     margin-top: 40px;
+    width: 290px;
 }
 
 .room-prices-btn {
@@ -63,6 +68,7 @@
 @media screen and (min-width: 768px) {
     .room-hero-title {
         font-size: 80px;
+        width: 650px;
     }
 
     .double-room-container {
@@ -72,6 +78,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+    .double-room-hero {
+        padding-bottom: 40px;
+    }
+
     .room-hero-title {
         font-size: 90px;
     }
@@ -85,7 +95,12 @@
     .hero-room-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: flex-start;
+    }
+
+    .double-room-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
 }

@@ -26,6 +26,7 @@ margin-top: 40px;
     padding: 8px 18px;
     min-width: 131px;
     height: 34px;
+    text-align: center;
 }
 
 .hero-pictures-list {
@@ -36,6 +37,38 @@ line-height: calc(18/14);
 letter-spacing: 0.05em;
 text-transform: uppercase;
 
+margin-top: 100px;
+}
 
-    margin-top: 100px;
+@media screen and (min-width:1440px) {
+    .rest-hero-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hero-btn-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .rest-hero-title {
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .rest-btn {
+        width: 160px;
+        height: 42px;
+
+    }
+
+
+
+
+
+    .rest-hero-text {
+        margin-top: 40px;
+        width: 338px;
+        position: relative;
+        bottom: 75px;
+    }
 }

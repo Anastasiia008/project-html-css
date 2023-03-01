@@ -1,6 +1,4 @@
-body {
-  background-color: var(--color-dark);
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

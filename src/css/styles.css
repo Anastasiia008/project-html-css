@@ -19,7 +19,9 @@
 @import url('./layout/header.css');
 @import url('./layout/hero.css');
 @import url('./layout/about-complex.css');
-@import url('./layout/restourants-details.css');
+@import url('./layout/restaurant-details/restourants-details.css');
+@import url('./layout/restaurant-details/restaurant-details-tab.css');
+@import url('./layout/restaurant-details/restaurant-details-desktop.css');
 @import url('./layout/welcome.css');
 @import url('./layout/hotel-details.css');
 @import url('./layout/location.css');
@@ -40,7 +42,9 @@
 /* rest ` */
 @import url('./pages/rest/hero-rest.css');
 @import url('./pages/rest/about-kitchen.css');
-@import url('./pages/rest/menu.css');
+@import url('./pages/rest/menu/menu.css');
+@import url('./pages/rest/menu/menu-tab.css');
+@import url('./pages/rest/menu/menu-desktop.css');
 
 /* room ` */
 @import url('./pages/room/hero-room.css');

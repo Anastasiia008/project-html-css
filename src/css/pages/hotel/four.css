@@ -1,6 +1,4 @@
-body {
-    background-color: aqua;
-}
+
 .four-seater-photos {
     display: flex;
     flex-wrap: wrap;

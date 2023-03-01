@@ -67,9 +67,7 @@ img {
     padding: 0;
     display: block;
 }
-.img-review{
-    
-}
+
 .title-review{
     font-weight: 500;
     font-size: 14px;
@@ -226,7 +224,13 @@ img {
         min-width: 100%;
     }
     .restorant-hotel-complex{
-      margin: 0 auto;  
-      
+     margin-top: 199px;   
+    }
+    .review-man{
+      margin-left: 82px;
+    }
+    .third-picture{
+        margin-top: 127px;
+        column-gap: 54px;
     }
 }

@@ -161,6 +161,7 @@ color: #121212;
 } */
 .l-title{
     display: flex;
+    gap: 32px;
 }
 .location-title{    
     display: none;

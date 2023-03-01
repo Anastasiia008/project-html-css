@@ -78,8 +78,8 @@ flex-wrap: nowrap;
 
     }
     .first-seater-foto {
-      height: 261px;
-      width: 223px;
+      /* height: 261px;
+      width: 223px; */
 
 
     }
@@ -100,15 +100,20 @@ bottom: 0;
        justify-content: flex-end;
     }
 }
-
-@media screen and (min-width: 1440px) {
-    .four-seater-wrap {
-display: flex;
-justify-content: space-between;
+@media screen and (min-width: 768px) {
+    .four-seater-photos {
+gap: 30px;
     }
-    .four-seater-description
-     {
+.first-photo-wrap {
 display: flex;
-flex-direction: column;
-    }
-  }
+margin-left: auto;
+}
+.second-photo-wrap {
+    /* display: flex;
+    margin-left: auto; */
+}
+.third-photo-wrap {
+    /* display: flex;
+margin-left: auto; */
+}
+}

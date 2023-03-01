@@ -107,6 +107,8 @@ color: #121212;
 .location-tel{
     margin-left: 0;
     margin-top: 0;
+    display: flex;
+    gap: 12px;
 }
 .location-text{
     margin-bottom: 0;
@@ -126,6 +128,10 @@ letter-spacing: -0.02em;
 text-transform: uppercase;
 color: #121212;
 }
+.location-flex{
+    align-items: center;
+    gap: 70px;
+}
 /* .location-tel{
     margin-left: 0;
     display: flex;
@@ -135,9 +141,9 @@ color: #121212;
 }
 
 .location-flex{
-    align-items: baseline;
+    align-items: center;
     gap: 70px;
-}
+}   
 .location-text{
     margin-bottom: 0;
 }
@@ -158,6 +164,10 @@ color: #121212;
 }
 .location-title{    
     display: none;
+}
+
+.l-title-1{
+    
 }
 /* .foot{
     display: flex;

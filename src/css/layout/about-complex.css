@@ -30,11 +30,11 @@ img {
     top: 420px;
     right: 0;
 }
-.review-man{
-    position: relative;
-}
+
 .man{
-    top: 800px;
+    position: absolute;
+    bottom: 22px;
+    right: 0px;
     
 }
 .hotel-pictures > .review{
@@ -141,7 +141,41 @@ img {
         display: flex;
     
     }
+    .hotel-pictures{
+        position: relative;
 
+    }
+    .pic-two{
+        position: absolute;
+        right: 300px;
+        top: 209px;
+        z-index: 5;
+    }
+    .woman{
+        position: absolute;
+        z-index: 100;
+        top: 176px;
+        right: 370px;
+    }
+    .text-one{
+        width: 472px;
+    }
+    .text-two{
+        width: 472px;
+    }
+    .text-business-class{
+        width: 263px;
+    }
+    .third-picture{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 40px;
+        column-gap: 32px;
+        justify-content: flex-end;
+    }
+    .title-text-business{
+        align-items: start;
+    }
 }
 
 @media screen and (min-width: 1440px) {

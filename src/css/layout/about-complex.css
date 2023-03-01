@@ -173,6 +173,9 @@ img {
     }
     .text-business-class{
         width: 263px;
+        font-size: 14px;
+        line-height: 1.29;
+
     }
     .third-picture{
         display: flex;
@@ -184,9 +187,13 @@ img {
     .title-text-business{
         align-items: start;
     }
+    .title-business{
+        margin-top: 0;
+    }
     .restorant-hotel{
         margin-bottom: 80px;
     }
+
 }
 
 

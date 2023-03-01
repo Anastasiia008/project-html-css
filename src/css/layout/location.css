@@ -157,7 +157,7 @@ color: #121212;
     display: flex;
     flex-direction: column;
 }
-.location-title{
+.location-title{    
     display: none;
 }
 /* .foot{

@@ -159,7 +159,6 @@ display: block;
 } 
 .hero-picture{
 margin-right: 0;
-
 }
 
 .hero-btn{
@@ -176,9 +175,5 @@ justify-content: center;
 position: absolute;
 bottom: 20px;
 right: 0;
-
-}
-.hero-picture{
-
 }
 }

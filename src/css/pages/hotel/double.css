@@ -1,3 +1,14 @@
+@media screen and (max-width: 768px) {
+  .img__block_first {
+    max-height: 150px;
+    min-width: 158px;
+  }
+  .img__block_second {
+    max-height: 150px;
+    min-width: 158px;
+  }
+}
+
 .double-section {
   padding: 32px 0 32px;
 }

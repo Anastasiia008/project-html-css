@@ -67,9 +67,7 @@ img {
     padding: 0;
     display: block;
 }
-.img-review{
-    
-}
+
 .title-review{
     font-weight: 500;
     font-size: 14px;
@@ -136,8 +134,8 @@ img {
         width: 768px;
     }
     .about-a-complex {
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         display: flex;
     
     }
@@ -147,7 +145,7 @@ img {
     }
     .pic-two{
         position: absolute;
-        right: 300px;
+        left: 300px;
         top: 209px;
         z-index: 5;
     }
@@ -155,7 +153,7 @@ img {
         position: absolute;
         z-index: 100;
         top: 176px;
-        right: 370px;
+        left: 370px;
     }
     .text-one{
         width: 472px;
@@ -163,8 +161,19 @@ img {
     .text-two{
         width: 472px;
     }
+    .review-man{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .man{
+        right: 425px;
+        top: 303px;
+    }
     .text-business-class{
         width: 263px;
+        font-size: 14px;
+        line-height: 1.29;
+
     }
     .third-picture{
         display: flex;
@@ -176,7 +185,16 @@ img {
     .title-text-business{
         align-items: start;
     }
+    .title-business{
+        margin-top: 0;
+    }
+    .restorant-hotel{
+        margin-bottom: 80px;
+    }
+
 }
+
+
 
 @media screen and (min-width: 1440px) {
     .container {
@@ -184,7 +202,7 @@ img {
     }
     .about-a-complex {
         padding-top: 100px;
-        padding-bottom: 151px;
+        padding-bottom: 144px;
         display: flex;
     }
     .business-class{
@@ -192,22 +210,27 @@ img {
         flex-direction: row-reverse;
         
     }
-    .text{
-        
-        font-size: 14px;
-        line-height: 1.29;
-              
-    }
-    .title{
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.18em;
-    }
-    /* .restorant-hotel{
-        display: block;
+    .restorant-hotel{
+        display: flex;
+        /* flex-wrap: nowrap; */
     }
     .hotel-pictures{
-        display: block;
-    } */
+       margin-right: 364px;
+    }
+    .title-hotel{
+        margin-top: 0;
+    }
+    .pic-two{
+        min-width: 100%;
+    }
+    .restorant-hotel-complex{
+     margin-top: 199px;   
+    }
+    .review-man{
+      margin-left: 82px;
+    }
+    .third-picture{
+        margin-top: 127px;
+        column-gap: 54px;
+    }
 }

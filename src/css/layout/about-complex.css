@@ -136,8 +136,8 @@ img {
         width: 768px;
     }
     .about-a-complex {
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         display: flex;
     
     }
@@ -147,7 +147,7 @@ img {
     }
     .pic-two{
         position: absolute;
-        right: 300px;
+        left: 300px;
         top: 209px;
         z-index: 5;
     }
@@ -155,13 +155,21 @@ img {
         position: absolute;
         z-index: 100;
         top: 176px;
-        right: 370px;
+        left: 370px;
     }
     .text-one{
         width: 472px;
     }
     .text-two{
         width: 472px;
+    }
+    .review-man{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .man{
+        right: 425px;
+        top: 303px;
     }
     .text-business-class{
         width: 263px;
@@ -176,7 +184,12 @@ img {
     .title-text-business{
         align-items: start;
     }
+    .restorant-hotel{
+        margin-bottom: 80px;
+    }
 }
+
+
 
 @media screen and (min-width: 1440px) {
     .container {

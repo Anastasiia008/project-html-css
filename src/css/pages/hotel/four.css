@@ -1,4 +1,6 @@
-
+body {
+    background-color: aqua;
+}
 .four-seater-photos {
     display: flex;
     flex-wrap: wrap;
@@ -69,4 +71,10 @@ margin-top: 32px;
     min-width: 128px;
     height: 34px;
     display: block;
+}
+
+@media screen and (max-width:374px) {
+    .third-seater-photo {
+        position: static;
+    }
 }

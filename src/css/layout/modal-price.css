@@ -91,6 +91,7 @@
 }
 
 .price-name::before {
+    margin-bottom: 8px;
     display: block;
     content: '';
     width: 287px;
@@ -139,4 +140,70 @@
 .submit-bth:focus {
     background-color: var(--color-light);
     color: var(--color-dark);
+}
+
+
+@media screen and (min-width: 768px) {
+    .price {
+        min-width: 628px;
+        height: 430px;
+        padding-top: 32px;
+        padding-right: 32px;
+        padding-bottom: 60px;
+        padding-left: 32px;
+        }
+    
+    .price-btn {
+        left: 585px;
+    }    
+
+
+    .price-style {
+        font-style: italic;
+    }
+
+    .price-title {
+        max-width: 303px;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        margin-bottom: 60px;
+    }
+
+    .price-form {
+        width: 266px;
+    }
+
+    .tablet-position {
+        display: flex;
+        column-gap: 32px;
+        margin-bottom: 80px;
+    }
+
+    .price-input-wrap {
+        margin: 0;
+        flex-basis: calc((100% - 32px) / 2);
+    }
+
+    .price-name::before {
+        max-width: 266px;
+    }
+
+    .price-input-icon {
+        top: 25%;
+    }
+
+    .tablet-btn {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tablet-btn {
+    }
+
+    .submit-bth {
+        min-width: 400px;
+        padding: 14px 130px;
+    }
 }

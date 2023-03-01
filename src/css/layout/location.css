@@ -1,4 +1,5 @@
 .location {
+    padding-top:44px;
 }
 .location-title {
 font-family: 'DM Sans';
@@ -67,6 +68,9 @@ color: #121212;
 
 /* tablet */
 @media screen and (min-width: 768px) {
+    .location{
+        padding-top: 60px;
+    }
     .location-title{
         margin-bottom: 40px;
     }
@@ -97,6 +101,9 @@ color: #121212;
 
 /* desktop */
 @media screen and (min-width: 1440px) {
+    .location{
+        padding-top: 80px;
+    }
 .map-help-tablet{
     display: none;
 }
@@ -132,6 +139,7 @@ color: #121212;
     align-items: center;
     gap: 70px;
 }
+
 /* .location-tel{
     margin-left: 0;
     display: flex;
@@ -168,7 +176,9 @@ color: #121212;
 }
 
 .l-title-1{
-    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
 }
 /* .foot{
     display: flex;

@@ -1,3 +1,7 @@
+.hero-hotel {
+    padding-bottom: 64px;
+}
+
 .hotel-container {
     display: flex;
     flex-wrap: wrap;
@@ -101,11 +105,11 @@
     border-radius: 10px;
 }
 
-/* @media screen and (max-width: 767px) {
-    
-} */
-
 @media screen and (min-width: 768px) {
+    .hero-hotel {
+        padding-bottom: 40px;
+    }
+
     .hotel-hero-title {
         font-size: 80px;
     }

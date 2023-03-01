@@ -16,7 +16,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        column-gap: 74px;
+        column-gap: 34px;
         row-gap: 50px;
     }
 

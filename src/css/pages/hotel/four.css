@@ -2,7 +2,7 @@
 .four-seater-photos {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 19px;
     position: relative;
 }
 .first-seater-foto {
@@ -10,9 +10,7 @@
 .second-seater-foto {
 }
 .third-seater-photo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+
 }
 .four-seater-title {
 font-size: 31px;
@@ -72,7 +70,19 @@ margin-top: 32px;
 }
 
 @media screen and (max-width:374px) {
+  
+}
+@media screen and (min-width:768px) {
+    .four-seater-photos {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .first-seater-foto {
+    }
+    .second-seater-foto {
+    }
     .third-seater-photo {
-        position: static;
+    
     }
 }

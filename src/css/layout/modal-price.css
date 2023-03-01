@@ -199,10 +199,10 @@
         margin-right: auto;
     }
 
-    .tablet-btn {
-    }
+
 
     .submit-bth {
+        margin-left: 115px;
         min-width: 400px;
         padding: 14px 130px;
     }

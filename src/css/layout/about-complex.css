@@ -1,20 +1,213 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+.about-a-complex{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    
+}
+.hotel-pictures{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 20px;
+    /* margin-bottom: 32px; */
+}
+.review{
+    position: absolute;
+    display: flex;
+    gap: 12px;
+    padding-left: 14px;
+    align-items: center;
+    background: #121212;
+    
+}
+.woman{
+    top: 420px;
+    right: 0;
+}
+
+.man{
+    position: absolute;
+    bottom: 22px;
+    right: 0px;
+    
+}
+.hotel-pictures > .review{
+    position: absolute;
+
+    width: 198px;
+    height: 61px;
+        
+    background: #121212;
+    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+.business-class{
+    position: relative;
+}
+.business-class >.review {
+    position: absolute;
+
+    width: 198px;
+    height: 61px;
+
+    background: #121212;
+    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+.man{
+    top: 220px;
+}
+.text-review{
+    padding: 0;
+    display: block;
+}
+.img-review{
+    
+}
+.title-review{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.0;
+    color: #F7F7F7;
+    margin: 0;
+    padding-bottom: 7px;
+    
+}
+.rating{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #575757;
+    margin: 0;
+}
 .title{
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.18em;
-text-transform: uppercase;
-color: #484848;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #484848;
+    margin-bottom: 18px;
+    margin-top: 32px;
 }
 .text{
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #121212;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+    margin: 0;
+}
+.text-one{
+    padding-bottom: 14px;
+}
+.text-business-class{
+    margin-bottom: 40px;
+    margin-top: 18px;
+}
+.restorant-hotel{
+    margin-bottom: 64px;
+}
+.container {
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .about-a-complex {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        display: flex;
+    
+    }
+    .hotel-pictures{
+        position: relative;
+
+    }
+    .pic-two{
+        position: absolute;
+        right: 300px;
+        top: 209px;
+        z-index: 5;
+    }
+    .woman{
+        position: absolute;
+        z-index: 100;
+        top: 176px;
+        right: 370px;
+    }
+    .text-one{
+        width: 472px;
+    }
+    .text-two{
+        width: 472px;
+    }
+    .text-business-class{
+        width: 263px;
+    }
+    .third-picture{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 40px;
+        column-gap: 32px;
+        justify-content: flex-end;
+    }
+    .title-text-business{
+        align-items: start;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+    .about-a-complex {
+        padding-top: 100px;
+        padding-bottom: 151px;
+        display: flex;
+    }
+    .business-class{
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+    .text{
+        
+        font-size: 14px;
+        line-height: 1.29;
+              
+    }
+    .title{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.18em;
+    }
+    /* .restorant-hotel{
+        display: block;
+    }
+    .hotel-pictures{
+        display: block;
+    } */
 }

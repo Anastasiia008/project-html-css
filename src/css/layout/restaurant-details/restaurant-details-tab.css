@@ -126,11 +126,11 @@
     }
     
     .restaurant-details-btn:is(:hover, :focus) {
-        background-color: #FFFFFF;
+        background-color: var(--color-dark);
         border: none;
     }
     
     .restaurant-details-btn:is(:hover, :focus) .restaurant-details-btn-text {
-        color: var(--color-dark);
+        color: var(--color-light);
     }
 }

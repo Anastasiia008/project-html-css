@@ -40,6 +40,14 @@
     padding: 8px 18px;
     min-width: 131px;
     height: 34px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hotel-book-btn:hover,
+.hotel-book-btn:focus {
+    color: var(--color-light);
+    background-color: var(--color-dark);
 }
 
 .hotel-prices-btn {
@@ -59,8 +67,15 @@
     padding: 8px 18px;
     min-width: 123px;
     height: 34px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.hotel-prices-btn:hover,
+.hotel-prices-btn:focus {
+    color: var(--color-light);
+    background-color: var(--color-dark);
+}
 /* .hero-hotel-slider {
     display: flex;
     flex-wrap: wrap;

@@ -26,7 +26,9 @@ margin-bottom: 28px;
 .map-help{
 
 }
-.inframe-map{}
+.inframe-map{
+    mix-blend-mode: luminosity;
+}
 
 
 

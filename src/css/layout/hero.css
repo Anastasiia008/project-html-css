@@ -63,6 +63,14 @@ padding: 8px 18px;
 min-width: 132px;
 display: block;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--color-dark);
+    background-color: var(--color-light);
+}
+
+
 .hero-buttons{
     display: flex;
     gap: 14px;

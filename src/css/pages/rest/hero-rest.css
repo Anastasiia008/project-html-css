@@ -40,6 +40,15 @@ text-transform: uppercase;
 margin-top: 100px;
 }
 
+.hero-pictures-list {
+    display: flex;
+    gap: 32px;
+}
+.hero-first-img,
+.hero-second-img {
+width: 250px;
+
+}
 @media screen and (min-width:1440px) {
     .rest-hero-wrap {
         display: flex;

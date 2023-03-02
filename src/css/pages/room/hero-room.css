@@ -37,6 +37,15 @@
     padding: 8px 18px;
     min-width: 123px;
     height: 34px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.room-prices-btn:hover,
+.room-prices-btn:focus {
+    color: var(--color-light);
+    background-color: var(--color-dark);
 }
 
 .hero-room-slider {

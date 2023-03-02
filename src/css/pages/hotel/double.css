@@ -47,7 +47,16 @@
   margin-top: 28px;
   display: flex;
   gap: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.welcome__btn_wrap:hover,
+.welcome__btn_wrap:focus {
+    color: var(--color-dark);
+    background-color: var(--color-light);
+}
+
 .double__btn {
   border: 0.8px solid #121212;
   border-radius: 32px;
@@ -59,6 +68,14 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--color-dark);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.double__btn:hover,
+.double__btn:focus {
+    color: var(--color-light);
+    background-color: var(--color-dark);
 }
 
 .img_block {

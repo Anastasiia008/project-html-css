@@ -28,6 +28,10 @@
     color: var(--color-light);
 }
 
+.hotel-pict {
+    margin-bottom: 82px;
+}
+
 .first-pictures {
     margin-bottom: 27px;
 }

@@ -61,7 +61,7 @@ span {
 }
 /* ------------------------------------ */
 @media screen and (max-width: 767px) {
-  .modal {
+  .room-modal {
     display: block;
     position: relative;
     top: 50%;
@@ -240,7 +240,7 @@ span {
 /* ---------------------------------------- */
 
 @media screen and (min-width: 768px) {
-  .modal {
+  .room-modal {
     display: block;
     align-items: flex-start;
     position: relative;

@@ -1,3 +1,7 @@
+.amen-background {
+  background-color: var(--color-dark);
+}
+
 
 .visually-hidden {
   position: absolute;
@@ -17,7 +21,7 @@
   color: var(--color-light);
 }
 img {
-   display: block;
+  display: block;
     max-width: 100%;
     height: auto;
 }

@@ -61,7 +61,7 @@ span {
 }
 /* ------------------------------- */
 @media screen and (max-width: 767px) {
-  .modal {
+  .table-modal {
     display: block;
     align-items: flex-start;
     position: relative;
@@ -239,7 +239,7 @@ span {
 }
 /* ----------------------------------- */
 @media screen and (min-width: 768px) {
-  .modal {
+  .table-modal {
     display: block;
     align-items: flex-start;
     position: relative;

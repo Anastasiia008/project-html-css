@@ -35,53 +35,9 @@
     .restaurant-details-btn-wrap {
         display: none;
     }
-
-    .restaurant-details-list {
-        margin-top: 32px;
-        display: flex;
-    }
-
-    .restaurant-details-list-item:nth-child(-n+1) {
-        margin-right: 20px;
-    }
-
-    .restaurant-details-list-item {
-        width: calc((100% - 20px) / 2);
-    }
     
     .restaurant-details-desk-pic {
         display: none;
-    }
-
-    .restaurant-details-icons {
-        width: 68px;
-        margin-top: 18px;
-        margin-right: auto;
-        margin-bottom: 40px;
-        display: flex;
-    }
-    
-    .restaurant-details-icons-list {
-        display: flex;
-        gap: 20px;
-    }
-    
-    .restaurant-details-icons-item {
-        width: 24px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .restaurant-details-icon-b {
-        stroke: #adacac;
-        fill: transparent;
-        transform: rotate(-180deg);
-    }
-    
-    .restaurant-details-icon {
-        stroke: var(--color-dark);
-        fill: transparent;
     }
 
     .restaurant-details-btn-low-wrap {
@@ -123,5 +79,47 @@
     
     .restaurant-details-btn:is(:hover, :focus) .restaurant-details-btn-text {
         color: var(--color-light);
+    }
+
+    .slider {
+        margin-top: 32px;
+        margin-bottom: 82px;
+    }
+
+    .slider-img {
+        width: 158px;
+    }
+
+    .slider-img-desk {
+        display: none;
+    }
+
+    .slider-img:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .next {
+        position: absolute;
+        top: 225px;
+        right: 310px;
+        height: 10px;
+        width: 5px;
+        z-index: 1;
+        cursor: pointer;
+        stroke: var(--color-dark);
+        fill: transparent;
+    }
+
+    .prev {
+        position: absolute;
+        top: 225px;
+        left: 0px;
+        height: 10px;
+        width: 5px;
+        z-index: 1;
+        cursor: pointer;
+        stroke: var(--color-dark);
+        fill: transparent;
+        transform: rotate(-180deg);
     }
 }

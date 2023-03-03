@@ -6,6 +6,11 @@
     <link rel="icon" type="image/svg+xml" href="/project-html-css/assets/favicon-1d8dbbae.svg" />
     <title>Mimino</title>
 
+    <!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
     <!-- ----------------------Font Family---------------------- -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
@@ -25,8 +30,8 @@
 
 <!-- ----------------------Base styles---------------------- -->
     
-    <script type="module" crossorigin src="/project-html-css/assets/mobile-menu-61401fd3.js"></script>
-    <link rel="stylesheet" href="/project-html-css/assets/mobile-menu-0eab27bf.css">
+    <script type="module" crossorigin src="/project-html-css/assets/slider-d8a5b2e4.js"></script>
+    <link rel="stylesheet" href="/project-html-css/assets/slider-b4feb818.css">
   </head>
 
 
@@ -397,110 +402,177 @@
                 <button class="restaurant-details-btn"><span class="restaurant-details-btn-text"><a href="./restaurant.html">View the menu</a></span></button>
             </div>
         </div>
-        <div class="restaurant-details-list-wrap">
-            <ul class="restaurant-details-list list">
-                <li class="restaurant-details-list-item">
-                    <picture class="restaurant-details-pic">
-                        <source 
-                            srcset="/project-html-css/assets/rest-1-1x-1e154fa5.jpg 1x, /project-html-css/assets/rest-1-2x-cec23e42.jpg 2x"
-                            media="(min-width: 1440px)"
-                        />
-                        <source 
-                            srcset="/project-html-css/assets/tab-rest-1-1x-8f65eef0.jpg 1x, /project-html-css/assets/tab-rest-1-2x-3ed9457b.jpg 2x"
-                            media="(min-width: 768px)"
-                        />
-                        <source 
-                            srcset="/project-html-css/assets/mob-rest-1-1x-2c9249cf.jpg 1x, /project-html-css/assets/mob-rest-1-2x-56a8aa42.jpg 2x"
-                            media="(max-width: 767px)"
-                        />
-                        <img src="/project-html-css/assets/rest-1-1x-1e154fa5.jpg" alt="coctail" width="336">
-                    </picture>
-                </li>
-                <li class="restaurant-details-list-item">
-                    <picture class="restaurant-details-pic">
-                        <source 
-                            srcset="/project-html-css/assets/rest-2-1x-881f15d1.jpg 1x, /project-html-css/assets/rest-2-2x-fc455663.jpg 2x"
-                            media="(min-width: 1440px)"
-                        />
-                        <source 
-                            srcset="/project-html-css/assets/tab-rest-2-1x-4b90ea12.jpg 1x, /project-html-css/assets/tab-rest-2-2x-8d2a2263.jpg 2x"
-                            media="(min-width: 768px)"
-                        />
-                        <source 
-                            srcset="/project-html-css/assets/mob-rest-2-1x-01dfee12.jpg 1x, /project-html-css/assets/mob-rest-2-2x-06b20803.jpg 2x"
-                            media="(max-width: 767px)"
-                        />
-                        <img src="/project-html-css/assets/rest-2-1x-881f15d1.jpg" alt="coctail" width="336">
-                    </picture>
-                </li>
-            </ul>
-            <ul class="restaurant-details-list list">
-                <li class="restaurant-details-list-item-desk">
-                    <picture class="restaurant-details-desk-pic">
-                        <source 
-                            srcset="/project-html-css/assets/rest-3-1x-8874c7de.jpg 1x, /project-html-css/assets/rest-3-2x-d028c2e4.jpg 2x"
-                            media="(min-width: 1440px)"
-                        />
-                        <!-- <source 
-                            srcset="./img/page-home/restaurants-details/tablet/tab-rest-3-1x.jpg 1x, ./img/page-home/restaurants-details/tablet/tab-rest-3-2x.jpg 2x"
-                            media="(min-width: 768px)"
-                        />
-                        <source 
-                            srcset="./img/page-home/restaurants-details/mobile/mob-rest-3-1x.jpg 1x, ./img/page-home/restaurants-details/mobile/mob-rest-3-2x.jpg 2x"
-                            media="(max-width: 767px)"
-                        /> -->
-                        <img src="/project-html-css/assets/rest-3-1x-8874c7de.jpg" alt="coctail" width="336">
-                    </picture>
-                </li>
-                <li class="restaurant-details-list-item-desk">
-                    <picture class="restaurant-details-desk-pic">
-                        <source 
-                            srcset="/project-html-css/assets/rest-4-1x-3f8938e2.jpg 1x, /project-html-css/assets/rest-4-2x-55a8c704.jpg 2x"
-                            media="(min-width: 1440px)"
-                        />
-                        <!-- <source 
-                            srcset="./img/page-home/restaurants-details/tablet/tab-rest-4-1x.jpg 1x, ./img/page-home/restaurants-details/tablet/tab-rest-4-2x.jpg 2x"
-                            media="(min-width: 768px)"
-                        />
-                        <source 
-                            srcset="./img/page-home/restaurants-details/mobile/mob-rest-4-1x.jpg 1x, ./img/page-home/restaurants-details/mobile/mob-rest-4-2x.jpg 2x"
-                            media="(max-width: 767px)"
-                        /> -->
-                        <img src="/project-html-css/assets/rest-4-1x-3f8938e2.jpg" alt="coctail" width="336">
-                    </picture>
-                </li>
-                <li class="restaurant-details-list-item-desk">
-                    <picture class="restaurant-details-desk-pic">
-                        <source 
-                            srcset="/project-html-css/assets/rest-5-1x-1-fe7c539e.jpg 1x, /project-html-css/assets/rest-5-2x-1-229ee686.jpg 2x"
-                            media="(min-width: 1440px)"
-                        />
-                        <!-- <source 
-                            srcset="./img/page-home/restaurants-details/tablet/tab-rest-5-1x.jpg 1x, ./img/page-home/restaurants-details/tablet/tab-rest-5-2x.jpg 2x"
-                            media="(min-width: 768px)"
-                        />
-                        <source 
-                            srcset="./img/page-home/restaurants-details/mobile/mob-rest-5-1x.jpg 1x, ./img/page-home/restaurants-details/mobile/mob-rest-5-2x.jpg 2x"
-                            media="(max-width: 767px)"
-                        /> -->
-                        <img src="/project-html-css/assets/rest-5-1x-137742ed.jpg" alt="coctail" width="336">
-                    </picture>
-                </li>
-            </ul>
-        </div>
-        <div class="restaurant-details-icons">
-            <ul class="restaurant-details-icons-list list">
-                <li class="restaurant-details-icons-item">
-                    <svg class="restaurant-details-icon-b" width="5" height="10">
-                        <use href="/project-html-css/assets/sprite-c992d665.svg#icon-vector"></use>
-                    </svg>
-                </li>
-                <li class="restaurant-details-icons-item">
-                    <svg class="restaurant-details-icon" width="5" height="10">
-                        <use href="/project-html-css/assets/sprite-c992d665.svg#icon-vector"></use>
-                    </svg>
-                </li>
-            </ul>
+        <div class="slider">
+            <div class="slider-img">
+                <picture class="restaurant-details-pic">
+                    <source 
+                        srcset="/project-html-css/assets/rest-1-1x-1e154fa5.jpg 1x, /project-html-css/assets/rest-1-2x-cec23e42.jpg 2x"
+                        media="(min-width: 1440px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/tab-rest-1-1x-8f65eef0.jpg 1x, /project-html-css/assets/tab-rest-1-2x-3ed9457b.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/mob-rest-1-1x-2c9249cf.jpg 1x, /project-html-css/assets/mob-rest-1-2x-56a8aa42.jpg 2x"
+                        media="(max-width: 767px)"
+                    />
+                    <img src="/project-html-css/assets/rest-1-1x-1e154fa5.jpg" alt="coctail" width="336">
+                </picture>
+            </div>
+            <div class="slider-img">
+                <picture class="restaurant-details-pic">
+                    <source 
+                        srcset="/project-html-css/assets/rest-2-1x-881f15d1.jpg 1x, /project-html-css/assets/rest-2-2x-fc455663.jpg 2x"
+                        media="(min-width: 1440px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/tab-rest-2-1x-4b90ea12.jpg 1x, /project-html-css/assets/tab-rest-2-2x-8d2a2263.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/mob-rest-2-1x-01dfee12.jpg 1x, /project-html-css/assets/mob-rest-2-2x-06b20803.jpg 2x"
+                        media="(max-width: 767px)"
+                    />
+                    <img src="/project-html-css/assets/rest-2-1x-881f15d1.jpg" alt="coctail" width="336">
+                </picture>
+            </div>
+            <div class="slider-img">
+                <picture class="restaurant-details-pic">
+                    <source 
+                        srcset="/project-html-css/assets/rest-3-1x-8874c7de.jpg 1x, /project-html-css/assets/rest-3-2x-d028c2e4.jpg 2x"
+                        media="(min-width: 1440px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/tab-rest-3-1x-acde9a18.jpg 1x, /project-html-css/assets/tab-rest-3-2x-2578ca32.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/mob-rest-3-1x-a84f32d0.jpg 1x, /project-html-css/assets/mob-rest-3-2x-ab1bf010.jpg 2x"
+                        media="(max-width: 767px)"
+                    />
+                    <img src="/project-html-css/assets/rest-3-1x-8874c7de.jpg" alt="coctail" width="336">
+                </picture>
+            </div>
+            <div class="slider-img">
+                <picture class="restaurant-details-pic">
+                    <source 
+                        srcset="/project-html-css/assets/rest-4-1x-3f8938e2.jpg 1x, /project-html-css/assets/rest-4-2x-55a8c704.jpg 2x"
+                        media="(min-width: 1440px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/tab-rest-4-1x-4943af10.jpg 1x, /project-html-css/assets/tab-rest-4-2x-22f196c2.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/mob-rest-4-1x-5dab8679.jpg 1x, /project-html-css/assets/mob-rest-4-2x-ee96c758.jpg 2x"
+                        media="(max-width: 767px)"
+                    />
+                    <img src="/project-html-css/assets/rest-4-1x-3f8938e2.jpg" alt="coctail" width="336">
+                </picture>
+            </div>
+            <div class="slider-img">
+                <picture class="restaurant-details-pic">
+                    <source 
+                        srcset="/project-html-css/assets/rest-5-1x-1-fe7c539e.jpg 1x, /project-html-css/assets/rest-5-2x-1-229ee686.jpg 2x"
+                        media="(min-width: 1440px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/tab-rest-5-1x-1f36eb9e.jpg 1x, /project-html-css/assets/tab-rest-5-2x-adfe507d.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/mob-rest-5-1x-cd04009e.jpg 1x, /project-html-css/assets/mob-rest-5-2x-9c038cb3.jpg 2x"
+                        media="(max-width: 767px)"
+                    />
+                    <img src="/project-html-css/assets/rest-5-1x-137742ed.jpg" alt="coctail" width="336">
+                </picture>
+            </div>
+            <div class="slider-img">
+                <picture class="restaurant-details-pic">
+                    <source 
+                        srcset="/project-html-css/assets/rest-6-1x-89456593.jpg 1x, /project-html-css/assets/rest-6-2x-5e9ef931.jpg 2x"
+                        media="(min-width: 1440px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/tab-rest-6-1x-a5869134.jpg 1x, /project-html-css/assets/tab-rest-6-2x-a2296c6e.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/mob-rest-6-1x-8f82984a.jpg 1x, /project-html-css/assets/mob-rest-6-2x-38c845af.jpg 2x"
+                        media="(max-width: 767px)"
+                    />
+                    <img src="/project-html-css/assets/rest-6-1x-89456593.jpg" alt="coctail" width="336">
+                </picture>
+            </div>
+            <div class="slider-img">
+                <picture class="restaurant-details-pic">
+                    <source 
+                        srcset="/project-html-css/assets/rest-7-1x-c7b8f2f4.jpg 1x, /project-html-css/assets/rest-7-2x-a7f5dc79.jpg 2x"
+                        media="(min-width: 1440px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/tab-rest-7-1x-59ff0bd3.jpg 1x, /project-html-css/assets/tab-rest-7-2x-ea3d44c3.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="/project-html-css/assets/mob-rest-7-1x-bc9f9afd.jpg 1x, /project-html-css/assets/mob-rest-7-2x-3f5cabb3.jpg 2x"
+                        media="(max-width: 767px)"
+                    />
+                    <img src="/project-html-css/assets/rest-7-1x-c7b8f2f4.jpg" alt="coctail" width="336">
+                </picture>
+            </div>
+            <div class="slider-img-desk">
+                <picture class="restaurant-details-desk-pic">
+                    <source 
+                        srcset="/project-html-css/assets/rest-8-1x-e06d6fe4.jpg 1x, /project-html-css/assets/rest-8-2x-efd6dab3.jpg 2x"
+                        media="(min-width: 1440px)"
+                    />
+                    <!-- <source 
+                        srcset="./img/page-home/restaurants-details/tablet/tab-rest-7-1x.jpg 1x, ./img/page-home/restaurants-details/tablet/tab-rest-7-2x.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="./img/page-home/restaurants-details/mobile/mob-rest-7-1x.jpg 1x, ./img/page-home/restaurants-details/mobile/mob-rest-7-2x.jpg 2x"
+                        media="(max-width: 767px)"
+                    /> -->
+                    <img src="/project-html-css/assets/rest-8-1x-e06d6fe4.jpg" alt="coctail" width="336">
+                </picture>
+            </div>
+            <div class="slider-img-desk">
+                <picture class="restaurant-details-desk-pic">
+                <source 
+                        srcset="/project-html-css/assets/rest-9-1x-45661e72.jpg 1x, /project-html-css/assets/rest-9-2x-71105b7e.jpg 2x"
+                        media="(min-width: 1440px)"
+                    />
+                    <!-- <source 
+                        srcset="./img/page-home/restaurants-details/tablet/tab-rest-7-1x.jpg 1x, ./img/page-home/restaurants-details/tablet/tab-rest-7-2x.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="./img/page-home/restaurants-details/mobile/mob-rest-7-1x.jpg 1x, ./img/page-home/restaurants-details/mobile/mob-rest-7-2x.jpg 2x"
+                        media="(max-width: 767px)"
+                    /> -->
+                    <img src="/project-html-css/assets/rest-9-1x-45661e72.jpg" alt="coctail" width="336">
+                </picture>
+            </div>
+            <div class="slider-img-desk">
+                <picture class="restaurant-details-desk-pic">
+                <source 
+                        srcset="/project-html-css/assets/rest-10-1x-fa4f345f.jpg 1x, /project-html-css/assets/rest-10-2x-56cf26ef.jpg 2x"
+                        media="(min-width: 1440px)"
+                    />
+                    <!-- <source 
+                        srcset="./img/page-home/restaurants-details/tablet/tab-rest-7-1x.jpg 1x, ./img/page-home/restaurants-details/tablet/tab-rest-7-2x.jpg 2x"
+                        media="(min-width: 768px)"
+                    />
+                    <source 
+                        srcset="./img/page-home/restaurants-details/mobile/mob-rest-7-1x.jpg 1x, ./img/page-home/restaurants-details/mobile/mob-rest-7-2x.jpg 2x"
+                        media="(max-width: 767px)"
+                    /> -->
+                    <img src="/project-html-css/assets/rest-10-1x-fa4f345f.jpg" alt="coctail" width="336">
+                </picture>
+            </div>
         </div>
         <div class="restaurant-details-btn-low-wrap">
             <button class="restaurant-details-btn"><span class="restaurant-details-btn-text js-open-modal" data-modal="modal-table">Book a table</span></button>
@@ -1101,6 +1173,10 @@
 
 
 
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     
   </body>
 </html>

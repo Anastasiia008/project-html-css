@@ -41,56 +41,9 @@
     .restaurant-details-btn-wrap {
         display: none;
     }
-
-    .restaurant-details-list-item {
-        width: calc((100% - 32px) / 2);
-    }
-
-    .restaurant-details-list-item:nth-child(-n+1) {
-        margin-right: 32px;
-    }
-
-    .restaurant-details-list {
-        display: flex;
-    }
     
     .restaurant-details-desk-pic {
         display: none;
-    }
-
-    .restaurant-details-icons {
-        width: 68px;
-        margin-top: 32px;
-        margin-right: auto;
-        margin-bottom: 40px;
-        display: flex;
-    }
-    
-    .restaurant-details-icons-list {
-        display: flex;
-        gap: 20px;
-    }
-    
-    .restaurant-details-icons-item {
-        width: 24px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .restaurant-details-icon-b {
-        width: 7px;
-        height: 14px;
-        stroke: #adacac;
-        fill: transparent;
-        transform: rotate(-180deg);
-    }
-    
-    .restaurant-details-icon {
-        width: 7px;
-        height: 14px;
-        stroke: var(--color-dark);
-        fill: transparent;
     }
 
     .restaurant-details-btn-low-wrap {
@@ -132,5 +85,46 @@
     
     .restaurant-details-btn:is(:hover, :focus) .restaurant-details-btn-text {
         color: var(--color-light);
+    }
+
+    .slider {
+        margin-bottom: 108px;
+    }
+
+    .slider-img {
+        width: 336px;
+    }
+
+    .slider-img-desk {
+        display: none;
+    }
+
+    .slider-img:not(:last-child) {
+        margin-right: 32px;
+    }
+
+    .next {
+        position: absolute;
+        top: 350px;
+        right: 640px;
+        height: 14px;
+        width: 7px;
+        z-index: 1;
+        cursor: pointer;
+        stroke: var(--color-dark);
+        fill: transparent;
+    }
+
+    .prev {
+        position: absolute;
+        top: 350px;
+        left: 0px;
+        height: 14px;
+        width: 7px;
+        z-index: 1;
+        cursor: pointer;
+        stroke: var(--color-dark);
+        fill: transparent;
+        transform: rotate(-180deg);
     }
 }

@@ -10,6 +10,7 @@
 .header-container {
   display: flex;
   align-items: center;
+  z-index: 3;
 }
 
 @media screen and (max-width: 1439px) {
@@ -31,11 +32,17 @@
 }
 
 .header-link-soc {
-  fill: var(--color-dark);
+  fill: transparent;
   stroke: var(--color-light);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 1440px) {
+  .header-container {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
   .mobile-menu {
     display: none;
   }
@@ -265,5 +272,11 @@
     position: absolute;
     top: 27px;
     right: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-link-soc:is(:hover, :focus) {
+    stroke: var(--color-dark);
   }
 }

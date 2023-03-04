@@ -199,7 +199,6 @@ img {
 @media screen and (min-width: 1440px) {
     .container {
         max-width: 1440px;
-        padding: 0;
     }
     .about-a-complex {
         padding-top: 100px;

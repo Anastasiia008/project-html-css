@@ -10,6 +10,7 @@
 .header-container {
   display: flex;
   align-items: center;
+  z-index: 3;
 }
 
 @media screen and (max-width: 1439px) {
@@ -31,11 +32,16 @@
 }
 
 .header-link-soc {
-  fill: var(--color-dark);
+  fill: transparent;
   stroke: var(--color-light);
 }
 
 @media screen and (min-width: 1440px) {
+  .header-container {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
   .mobile-menu {
     display: none;
   }

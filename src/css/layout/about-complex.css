@@ -1,55 +1,58 @@
-img {
+.about-a-complex > img {
     display: block;
     max-width: 100%;
     height: auto;
-    
 }
-.about-a-complex{
+
+.about-a-complex {
     padding-top: 64px;
     padding-bottom: 64px;
     display: flex;
-    
 }
-.hotel-pictures{
+
+.hotel-pictures {
     display: flex;
     flex-wrap: wrap;
     position: relative;
     gap: 20px;
     /* margin-bottom: 32px; */
 }
-.review{
+
+.review {
     position: absolute;
     display: flex;
     gap: 12px;
     padding-left: 14px;
     align-items: center;
-    background: #121212;
-    
+    background: #121212; 
 }
-.woman{
+
+.woman {
     top: 420px;
     right: 0;
 }
 
-.man{
+.man {
     position: absolute;
     bottom: 22px;
     right: 0px;
-    
 }
-.hotel-pictures > .review{
+
+.hotel-pictures > .review {
     position: absolute;
 
     width: 198px;
     height: 61px;
-        
+
     background: #121212;
     box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
 }
-.business-class{
+
+.business-class {
     position: relative;
 }
+
 .business-class >.review {
     position: absolute;
 
@@ -60,31 +63,34 @@ img {
     box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
 }
-.man{
+
+.man {
     top: 220px;
 }
-.text-review{
+
+.text-review {
     padding: 0;
     display: block;
 }
 
-.title-review{
+.title-review {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.0;
     color: #F7F7F7;
     margin: 0;
     padding-bottom: 7px;
-    
 }
-.rating{
+
+.rating {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.33;
     color: #575757;
     margin: 0;
 }
-.title{
+
+.title {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -96,7 +102,8 @@ img {
     margin-bottom: 18px;
     margin-top: 32px;
 }
-.text{
+
+.text {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -107,129 +114,150 @@ img {
     color: #121212;
     margin: 0;
 }
-.text-one{
+
+.text-one {
     padding-bottom: 14px;
 }
-.text-business-class{
+
+.text-business-class {
     margin-bottom: 40px;
     margin-top: 18px;
 }
-.restorant-hotel{
+
+.restorant-hotel {
     margin-bottom: 64px;
 }
-.container {
+
+.about-a-complex > .container {
     margin: 0 auto;
     padding-right: 20px;
     padding-left: 20px;
 }
 
 @media screen and (max-width: 767px) {
-    .container {
+    .about-a-complex > .container {
         max-width: 375px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
+    .about-a-complex > .container {
         max-width: 768px;
     }
+
     .about-a-complex {
         padding-top: 80px;
         padding-bottom: 80px;
         display: flex;
-    
     }
-    .hotel-pictures{
-        position: relative;
 
+    .hotel-pictures {
+        position: relative;
     }
-    .pic-two{
+
+    .pic-two {
         position: absolute;
         left: 300px;
         top: 209px;
         z-index: 5;
     }
-    .woman{
+
+    .woman {
         position: absolute;
         z-index: 100;
         top: 176px;
         left: 370px;
     }
-    .text-one{
+
+    .text-one {
         width: 472px;
     }
-    .text-two{
+
+    .text-two {
         width: 472px;
     }
-    .review-man{
+
+    .review-man {
         display: flex;
         justify-content: flex-end;
     }
-    .man{
+
+    .man {
         right: 425px;
         top: 303px;
     }
-    .text-business-class{
+
+    .text-business-class {
         width: 263px;
         font-size: 14px;
         line-height: 1.29;
-
     }
-    .third-picture{
+
+    .third-picture {
         display: flex;
         flex-direction: row-reverse;
         margin-top: 40px;
         column-gap: 32px;
         justify-content: flex-end;
     }
-    .title-text-business{
+
+    .title-text-business {
         align-items: start;
     }
-    .title-business{
+
+    .title-business {
         margin-top: 0;
     }
-    .restorant-hotel{
+
+    .restorant-hotel {
         margin-bottom: 80px;
     }
-
 }
 
 
 
 @media screen and (min-width: 1440px) {
-    .container {
+    .about-a-complex > .container {
         max-width: 1440px;
     }
+
     .about-a-complex {
         padding-top: 100px;
         padding-bottom: 144px;
         display: flex;
     }
-    .business-class{
+
+    .business-class {
         display: flex;
-        flex-direction: row-reverse;
-        
+        flex-direction: row-reverse; 
     }
-    .restorant-hotel{
+
+    .restorant-hotel {
         display: flex;
         /* flex-wrap: nowrap; */
     }
-    .hotel-pictures{
-       margin-right: 364px;
+
+    .hotel-pictures {
+        margin-right: 364px;
     }
-    .title-hotel{
+
+    .title-hotel {
         margin-top: 0;
     }
-    .pic-two{
+
+    .pic-two {
         min-width: 100%;
     }
-    .restorant-hotel-complex{
-     margin-top: 199px;   
+
+    .restorant-hotel-complex {
+        margin-top: 199px;   
     }
-    .review-man{
-      margin-left: 82px;
+
+    .review-man {
+        margin-left: 82px;
     }
-    .third-picture{
+
+    .third-picture {
         margin-top: 127px;
         column-gap: 54px;
     }
